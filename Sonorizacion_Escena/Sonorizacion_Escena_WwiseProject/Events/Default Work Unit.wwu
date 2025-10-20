@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6CFBAD94-9383-4DC1-A110-EAD6BCF1D490}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{6CFBAD94-9383-4DC1-A110-EAD6BCF1D490}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6CFBAD94-9383-4DC1-A110-EAD6BCF1D490}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_metal_impact_247482" ID="{F8310B1B-D103-43D9-B452-0C0EE8E6A85A}">
+					<ChildrenList>
+						<Action Name="" ID="{7C782F9E-164A-4FB6-920D-465517810AA7}" ShortID="644637012">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="metal-impact-247482" ID="{A1AC75B0-2060-4D36-9CDA-7041E645025F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -81,7 +81,7 @@ namespace EasyPeasyFirstPersonController
             slideAudioSource = gameObject.AddComponent<AudioSource>();
             slideAudioSource.playOnAwake = false;
             slideAudioSource.loop = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             currentCameraHeight = originalCameraParentHeight;
             currentBobOffset = 0f;
             currentFov = normalFov;
