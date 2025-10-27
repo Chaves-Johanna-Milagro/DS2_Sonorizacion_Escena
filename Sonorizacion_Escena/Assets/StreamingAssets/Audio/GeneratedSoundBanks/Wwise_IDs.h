@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENTE = 94063951U;
+        static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
         static const AkUniqueID PLAY_METAL_IMPACT_247482 = 2399670526U;
     } // namespace EVENTS
 

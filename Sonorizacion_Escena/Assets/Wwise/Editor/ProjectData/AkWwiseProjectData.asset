@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584406324682573257
+    m_lastTime: -8584400159877937900
     List:
+    - name: Play_Ambiente
+      guid: 4693af3028ddc64087b099291d54fdc7
+      id: 94063951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ambiente
+        ObjectType: 3
+        guid: 4693af3028ddc64087b099291d54fdc7
+      Path: Events\Default Work Unit\Play_Ambiente
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambiente2
+      guid: abd0c73001418c41a15059ac241b7260
+      id: 578466671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ambiente2
+        ObjectType: 3
+        guid: abd0c73001418c41a15059ac241b7260
+      Path: Events\Default Work Unit\Play_Ambiente2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_metal_impact_247482
       guid: 1b0b31f803d1d943b4520c0ee8e6a85a
       id: 2399670526
@@ -170,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b000000fc000000fd000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

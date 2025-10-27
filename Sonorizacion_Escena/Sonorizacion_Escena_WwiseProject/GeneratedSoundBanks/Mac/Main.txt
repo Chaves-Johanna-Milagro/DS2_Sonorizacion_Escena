@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	94063951	Play_Ambiente			\Default Work Unit\Play_Ambiente	
+	578466671	Play_Ambiente2			\Default Work Unit\Play_Ambiente2	
 	2399670526	Play_metal_impact_247482			\Default Work Unit\Play_metal_impact_247482	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	288568604	Ambiente	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\Ambiente_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente		2208064
 	865251042	metal-impact-247482	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\metal-impact-247482_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metal-impact-247482		34624
+	950223360	Ambiente2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\Ambiente2_22448A9A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente2		1632128
 

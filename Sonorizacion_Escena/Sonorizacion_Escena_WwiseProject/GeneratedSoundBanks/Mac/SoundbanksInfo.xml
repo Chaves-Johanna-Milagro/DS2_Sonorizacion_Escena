@@ -16,17 +16,27 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="552043626">
+		<SoundBank Id="3161908922" Language="SFX" Hash="837447209">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="94063951" Name="Play_Ambiente" ObjectPath="\Events\Default Work Unit\Play_Ambiente" DurationType="Infinite"/>
+				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
 				<Event Id="2399670526" Name="Play_metal_impact_247482" ObjectPath="\Events\Default Work Unit\Play_metal_impact_247482" DurationType="OneShot" DurationMin="0.391837" DurationMax="0.391837"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="288568604" Language="SFX">
+					<ShortName>Ambiente.wav</ShortName>
+					<Path>SFX\Ambiente_D79FB2B7.wem</Path>
+				</File>
 				<File Id="865251042" Language="SFX">
 					<ShortName>metal-impact-247482.wav</ShortName>
 					<Path>SFX\metal-impact-247482_10C4C929.wem</Path>
+				</File>
+				<File Id="950223360" Language="SFX">
+					<ShortName>Ambiente2.wav</ShortName>
+					<Path>SFX\Ambiente2_22448A9A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

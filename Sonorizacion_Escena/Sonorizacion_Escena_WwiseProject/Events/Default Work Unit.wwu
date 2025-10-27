@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambiente" ID="{30AF9346-DD28-40C6-87B0-99291D54FDC7}">
+					<ChildrenList>
+						<Action Name="" ID="{2F6605E8-8047-4C9C-8BA8-14349C6476C4}" ShortID="621517219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente" ID="{AE0C7B44-B345-4B88-A8B9-39BCACA809FB}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente2" ID="{30C7D0AB-4101-418C-A150-59AC241B7260}">
+					<ChildrenList>
+						<Action Name="" ID="{7494420B-E83A-4C2C-976B-375C6DB3F7AB}" ShortID="981999854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente2" ID="{BDBDCEFD-2CB7-46DB-B85A-545DBFD299FB}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
