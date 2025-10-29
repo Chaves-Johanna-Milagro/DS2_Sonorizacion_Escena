@@ -13,7 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
+        static const AkUniqueID PLAY_GLOBO = 4069076147U;
         static const AkUniqueID PLAY_METAL_IMPACT_247482 = 2399670526U;
+        static const AkUniqueID PLAY_PICAPORTES = 3093474282U;
+        static const AkUniqueID PLAY_TACHOS = 451097472U;
+        static const AkUniqueID PLAY_TAPSPANTALLAS = 3174868516U;
+        static const AkUniqueID STOP_GLOBO = 628854749U;
     } // namespace EVENTS
 
     namespace BANKS

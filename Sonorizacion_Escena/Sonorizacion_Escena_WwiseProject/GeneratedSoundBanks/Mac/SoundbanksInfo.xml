@@ -16,17 +16,91 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="552043626">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2489853927">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
+				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="100." DurationType="Infinite"/>
 				<Event Id="2399670526" Name="Play_metal_impact_247482" ObjectPath="\Events\Default Work Unit\Play_metal_impact_247482" DurationType="OneShot" DurationMin="0.391837" DurationMax="0.391837"/>
+				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" DurationType="OneShot" DurationMin="0.296815" DurationMax="0.419002"/>
+				<Event Id="451097472" Name="Play_Tachos" ObjectPath="\Events\Default Work Unit\Play_Tachos" DurationType="OneShot" DurationMin="0.547042" DurationMax="0.703354"/>
+				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" DurationType="OneShot" DurationMin="0.094374" DurationMax="0.174117"/>
+				<Event Id="628854749" Name="Stop_Globo" ObjectPath="\Events\Default Work Unit\Stop_Globo" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="113655967" Language="SFX">
+					<ShortName>taps2.wav</ShortName>
+					<Path>SFX\taps2_FCC91008.wem</Path>
+				</File>
+				<File Id="172883275" Language="SFX">
+					<ShortName>taps1.wav</ShortName>
+					<Path>SFX\taps1_229660B4.wem</Path>
+				</File>
+				<File Id="193043247" Language="SFX">
+					<ShortName>taps2.wav</ShortName>
+					<Path>SFX\taps2_178AF83F.wem</Path>
+				</File>
+				<File Id="354737974" Language="SFX">
+					<ShortName>golpes_latas4.wav</ShortName>
+					<Path>SFX\golpes_latas4_10C4C929.wem</Path>
+				</File>
+				<File Id="362068587" Language="SFX">
+					<ShortName>picaporte4.wav</ShortName>
+					<Path>SFX\picaporte4_419FA920.wem</Path>
+				</File>
+				<File Id="376157099" Language="SFX">
+					<ShortName>golpes_latas3.wav</ShortName>
+					<Path>SFX\golpes_latas3_10C4C929.wem</Path>
+				</File>
+				<File Id="381798563" Language="SFX">
+					<ShortName>golpes_latas5.wav</ShortName>
+					<Path>SFX\golpes_latas5_10C4C929.wem</Path>
+				</File>
+				<File Id="518096694" Language="SFX">
+					<ShortName>picaporte1.wav</ShortName>
+					<Path>SFX\picaporte1_D73FE1D3.wem</Path>
+				</File>
+				<File Id="538552812" Language="SFX">
+					<ShortName>taps2.wav</ShortName>
+					<Path>SFX\taps2_5CE9969B.wem</Path>
+				</File>
+				<File Id="693511078" Language="SFX">
+					<ShortName>taps1.wav</ShortName>
+					<Path>SFX\taps1_E091FF30.wem</Path>
+				</File>
+				<File Id="693567509" Language="SFX">
+					<ShortName>golpes_latas2.wav</ShortName>
+					<Path>SFX\golpes_latas2_10C4C929.wem</Path>
+				</File>
+				<File Id="790809328" Language="SFX">
+					<ShortName>taps1.wav</ShortName>
+					<Path>SFX\taps1_A600F12E.wem</Path>
+				</File>
+				<File Id="814756210" Language="SFX">
+					<ShortName>globo.wav</ShortName>
+					<Path>SFX\globo_D79FB2B7.wem</Path>
+				</File>
 				<File Id="865251042" Language="SFX">
 					<ShortName>metal-impact-247482.wav</ShortName>
 					<Path>SFX\metal-impact-247482_10C4C929.wem</Path>
+				</File>
+				<File Id="867926429" Language="SFX">
+					<ShortName>Ambiente2.wav</ShortName>
+					<Path>SFX\Ambiente2_0E77ED6F.wem</Path>
+				</File>
+				<File Id="902654082" Language="SFX">
+					<ShortName>golpes_latas1.wav</ShortName>
+					<Path>SFX\golpes_latas1_10C4C929.wem</Path>
+				</File>
+				<File Id="928788019" Language="SFX">
+					<ShortName>picaporte3.wav</ShortName>
+					<Path>SFX\picaporte3_BF54EA68.wem</Path>
+				</File>
+				<File Id="1059020161" Language="SFX">
+					<ShortName>picaporte2.wav</ShortName>
+					<Path>SFX\picaporte2_B38B5628.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

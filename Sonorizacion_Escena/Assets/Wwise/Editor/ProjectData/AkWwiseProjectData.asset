@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584406324682573257
+    m_lastTime: -8584398932931409717
     List:
+    - name: Play_Ambiente2
+      guid: 111a0f671ec6ec48ae7839dc04adda6b
+      id: 578466671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ambiente2
+        ObjectType: 3
+        guid: 111a0f671ec6ec48ae7839dc04adda6b
+      Path: Events\Default Work Unit\Play_Ambiente2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Globo
+      guid: 12d7374d4d64ec4db4c8187d68681e3f
+      id: 4069076147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Globo
+        ObjectType: 3
+        guid: 12d7374d4d64ec4db4c8187d68681e3f
+      Path: Events\Default Work Unit\Play_Globo
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: Play_metal_impact_247482
       guid: 1b0b31f803d1d943b4520c0ee8e6a85a
       id: 2399670526
@@ -113,6 +147,74 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.391837
       minDuration: 0.391837
+    - name: Play_Picaportes
+      guid: 481ba1cf8e2ae24c866efd7e62c3e290
+      id: 3093474282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Picaportes
+        ObjectType: 3
+        guid: 481ba1cf8e2ae24c866efd7e62c3e290
+      Path: Events\Default Work Unit\Play_Picaportes
+      maxAttenuation: 0
+      maxDuration: 0.419002
+      minDuration: 0.296815
+    - name: Play_Tachos
+      guid: 110294ab4f7b204e8d2bdfceaece0ee6
+      id: 451097472
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Tachos
+        ObjectType: 3
+        guid: 110294ab4f7b204e8d2bdfceaece0ee6
+      Path: Events\Default Work Unit\Play_Tachos
+      maxAttenuation: 0
+      maxDuration: 0.703354
+      minDuration: 0.547042
+    - name: Play_TapsPantallas
+      guid: 296b32074bf3644a80aead12cbc8d5a5
+      id: 3174868516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_TapsPantallas
+        ObjectType: 3
+        guid: 296b32074bf3644a80aead12cbc8d5a5
+      Path: Events\Default Work Unit\Play_TapsPantallas
+      maxAttenuation: 0
+      maxDuration: 0.174117
+      minDuration: 0.094374
+    - name: Stop_Globo
+      guid: 7ff138d78a74f24288d794141d41b152
+      id: 628854749
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Stop_Globo
+        ObjectType: 3
+        guid: 7ff138d78a74f24288d794141d41b152
+      Path: Events\Default Work Unit\Stop_Globo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +272,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 0100000005000000060000006200000063000000c0000000c1000000f8000000f90000000801000009010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

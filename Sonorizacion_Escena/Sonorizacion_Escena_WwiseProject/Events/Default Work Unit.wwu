@@ -14,6 +14,75 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tachos" ID="{AB940211-7B4F-4E20-8D2B-DFCEAECE0EE6}">
+					<ChildrenList>
+						<Action Name="" ID="{91A4855A-8945-4155-B5B9-9C0B5B10D5EF}" ShortID="914304199">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tachos" ID="{B457557F-CC3B-46BE-8919-017554E0BF1B}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Globo" ID="{4D37D712-644D-4DEC-B4C8-187D68681E3F}">
+					<ChildrenList>
+						<Action Name="" ID="{76CC91D6-52AA-48BB-8CEB-4C949EC55D76}" ShortID="700670657">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Globo" ID="{F32C478C-6904-49D7-BB27-FD38EFCF13A4}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Globo" ID="{D738F17F-748A-42F2-88D7-94141D41B152}">
+					<ChildrenList>
+						<Action Name="" ID="{09EF201A-6C1D-4BB2-8270-D9501C5731C2}" ShortID="378645953">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Globo" ID="{F32C478C-6904-49D7-BB27-FD38EFCF13A4}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente2" ID="{670F1A11-C61E-48EC-AE78-39DC04ADDA6B}">
+					<ChildrenList>
+						<Action Name="" ID="{AFC25630-5062-447C-8F7C-F8C16FDAFB1A}" ShortID="48607073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente2" ID="{2B23888A-63D9-4750-B8DC-8D50D84D4F74}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TapsPantallas" ID="{07326B29-F34B-4A64-80AE-AD12CBC8D5A5}">
+					<ChildrenList>
+						<Action Name="" ID="{D8E09487-732D-45ED-8AD6-6D74369D3A9A}" ShortID="1067260273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TapsPantallas" ID="{7D6760D9-CDC9-4AAA-89E6-4AF2FFF35D52}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Picaportes" ID="{CFA11B48-2A8E-4CE2-866E-FD7E62C3E290}">
+					<ChildrenList>
+						<Action Name="" ID="{279CFE14-94B6-47A3-B84C-E679267CE742}" ShortID="591233611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Picaportes" ID="{B5B54691-DFD7-43A6-B0C0-3B8EC80BFCF2}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
