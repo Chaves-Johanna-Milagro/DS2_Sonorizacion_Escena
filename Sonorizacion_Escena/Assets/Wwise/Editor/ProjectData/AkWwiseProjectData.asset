@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584398932931409717
+    m_lastTime: -8584398130651160438
     List:
     - name: Play_Ambiente2
       guid: 111a0f671ec6ec48ae7839dc04adda6b
@@ -179,8 +179,8 @@ MonoBehaviour:
         guid: 110294ab4f7b204e8d2bdfceaece0ee6
       Path: Events\Default Work Unit\Play_Tachos
       maxAttenuation: 0
-      maxDuration: 0.703354
-      minDuration: 0.547042
+      maxDuration: 0.194604
+      minDuration: 0.194604
     - name: Play_TapsPantallas
       guid: 296b32074bf3644a80aead12cbc8d5a5
       id: 3174868516
@@ -198,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.174117
       minDuration: 0.094374
+    - name: Play_Ventanas
+      guid: 75d1765ce41cd14a8fc20239d280d6fa
+      id: 645244742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ventanas
+        ObjectType: 3
+        guid: 75d1765ce41cd14a8fc20239d280d6fa
+      Path: Events\Default Work Unit\Play_Ventanas
+      maxAttenuation: 0
+      maxDuration: 0.247123
+      minDuration: 0.165839
     - name: Stop_Globo
       guid: 7ff138d78a74f24288d794141d41b152
       id: 628854749
@@ -272,7 +289,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000006200000063000000c0000000c1000000f8000000f90000000801000009010000
+  ExpandedWaapiItemIds: 0100000005000000060000006200000063000000c0000000c1000000f5000000f6000000f8000000f90000000801000009010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

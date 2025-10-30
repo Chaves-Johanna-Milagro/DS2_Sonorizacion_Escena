@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_PICAPORTES = 3093474282U;
         static const AkUniqueID PLAY_TACHOS = 451097472U;
         static const AkUniqueID PLAY_TAPSPANTALLAS = 3174868516U;
+        static const AkUniqueID PLAY_VENTANAS = 645244742U;
         static const AkUniqueID STOP_GLOBO = 628854749U;
     } // namespace EVENTS
 

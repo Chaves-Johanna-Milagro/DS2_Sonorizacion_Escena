@@ -83,6 +83,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ventanas" ID="{5C76D175-1CE4-4AD1-8FC2-0239D280D6FA}">
+					<ChildrenList>
+						<Action Name="" ID="{8F696930-EA67-415B-9B11-86648BFFD31B}" ShortID="543979373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ventanas" ID="{F5058A8B-C0CA-4105-8C23-A004073438DD}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

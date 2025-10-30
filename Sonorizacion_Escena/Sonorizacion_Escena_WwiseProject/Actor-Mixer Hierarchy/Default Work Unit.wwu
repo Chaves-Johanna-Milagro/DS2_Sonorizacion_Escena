@@ -53,6 +53,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="golpes_latas1" ID="{A1333B6A-CB7F-4FEF-A994-1ACDBEAE7477}" ShortID="50626049">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
@@ -76,6 +83,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="golpes_latas2" ID="{0127ABA5-B035-4679-AD13-B7478F4E0532}" ShortID="261413338">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
@@ -99,6 +113,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="golpes_latas3" ID="{F2DC3364-5D87-48E1-8282-A76A4C9D7559}" ShortID="630211551">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
@@ -122,6 +143,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="golpes_latas4" ID="{ADAB3B0D-8F5C-4790-8C0D-556133A8D244}" ShortID="182884883">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
@@ -145,6 +173,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="golpes_latas5" ID="{CAD6688A-00B7-4D00-B337-4C09317CC794}" ShortID="75018248">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
@@ -167,6 +202,75 @@
 								<ActiveSource Name="golpes_latas5" ID="{302CA211-7644-4A68-A90A-B8D9369CFF23}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="golpes-latas3-mod" ID="{3CDB99B6-6877-4A29-95D6-E82BF0D6B1CD}" ShortID="972282950">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="golpes-latas3-mod" ID="{EE6C9E36-735F-4EFA-8A8F-62CF187030A4}">
+									<Language>SFX</Language>
+									<AudioFile>golpes-latas3-mod.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508980306"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="golpes-latas3-mod" ID="{EE6C9E36-735F-4EFA-8A8F-62CF187030A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="golpes-latas4-mod" ID="{895A2149-DB4C-4734-B983-B96DFBB7929D}" ShortID="1033233816">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="golpes-latas4-mod" ID="{621D8A42-095A-4702-A2BB-92CF3784A60A}">
+									<Language>SFX</Language>
+									<AudioFile>golpes-latas4-mod.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="53502942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="golpes-latas4-mod" ID="{621D8A42-095A-4702-A2BB-92CF3784A60A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="golpes-latas5-mod" ID="{F0DFF404-B405-40A7-A78C-87822615B1ED}" ShortID="356931959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="golpes-latas5-mod" ID="{B4A48B18-2C4F-44AA-B7B2-FF122ECCC1EE}">
+									<Language>SFX</Language>
+									<AudioFile>golpes-latas5-mod.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698195814"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="golpes-latas5-mod" ID="{B4A48B18-2C4F-44AA-B7B2-FF122ECCC1EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
@@ -174,7 +278,7 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -620,6 +724,110 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="picaporte4" ID="{1BC68B1D-1C1F-4E81-A7CF-7A24E7CAB097}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Ventanas" ID="{F5058A8B-C0CA-4105-8C23-A004073438DD}" ShortID="55419797">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ventana1" ID="{4CBB9F23-09C7-4E1C-9165-088514261AE3}" ShortID="514872795">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ventana1" ID="{68975C0B-19C6-4EDD-886B-5DB4F4AD9E44}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.241593239673391"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.40743266690682"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ventana1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="435195137"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ventana1" ID="{68975C0B-19C6-4EDD-886B-5DB4F4AD9E44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ventana2" ID="{1513EB32-C077-42FD-B2C1-4B16FB8E7712}" ShortID="672673207">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ventana2" ID="{06688C52-BAFE-4627-B9A0-CE46CE8452D9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.248300162103747"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.456399345581172"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ventana2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="533089421"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ventana2" ID="{06688C52-BAFE-4627-B9A0-CE46CE8452D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ventana3" ID="{4E958D76-3D50-4501-8327-2681D45FC38E}" ShortID="193179041">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ventana3" ID="{BC8AACC9-2BF0-4955-9736-2B6BF8B455B0}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.273227695725264"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.520350834534101"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ventana3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813682556"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ventana3" ID="{BC8AACC9-2BF0-4955-9736-2B6BF8B455B0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

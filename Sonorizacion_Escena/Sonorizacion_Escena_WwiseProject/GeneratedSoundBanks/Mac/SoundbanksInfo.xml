@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2489853927">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1385735751">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,58 +25,67 @@
 				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="100." DurationType="Infinite"/>
 				<Event Id="2399670526" Name="Play_metal_impact_247482" ObjectPath="\Events\Default Work Unit\Play_metal_impact_247482" DurationType="OneShot" DurationMin="0.391837" DurationMax="0.391837"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" DurationType="OneShot" DurationMin="0.296815" DurationMax="0.419002"/>
-				<Event Id="451097472" Name="Play_Tachos" ObjectPath="\Events\Default Work Unit\Play_Tachos" DurationType="OneShot" DurationMin="0.547042" DurationMax="0.703354"/>
+				<Event Id="451097472" Name="Play_Tachos" ObjectPath="\Events\Default Work Unit\Play_Tachos" DurationType="OneShot" DurationMin="0.194604" DurationMax="0.194604"/>
 				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" DurationType="OneShot" DurationMin="0.094374" DurationMax="0.174117"/>
+				<Event Id="645244742" Name="Play_Ventanas" ObjectPath="\Events\Default Work Unit\Play_Ventanas" DurationType="OneShot" DurationMin="0.165839" DurationMax="0.247123"/>
 				<Event Id="628854749" Name="Stop_Globo" ObjectPath="\Events\Default Work Unit\Stop_Globo" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="53502942" Language="SFX">
+					<ShortName>golpes-latas4-mod.wav</ShortName>
+					<Path>SFX\golpes-latas4-mod_10C4C929.wem</Path>
+				</File>
 				<File Id="113655967" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_FCC91008.wem</Path>
+					<Path>SFX\taps2_CE425E63.wem</Path>
 				</File>
 				<File Id="172883275" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_229660B4.wem</Path>
+					<Path>SFX\taps1_8A32F4B6.wem</Path>
 				</File>
 				<File Id="193043247" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_178AF83F.wem</Path>
-				</File>
-				<File Id="354737974" Language="SFX">
-					<ShortName>golpes_latas4.wav</ShortName>
-					<Path>SFX\golpes_latas4_10C4C929.wem</Path>
+					<Path>SFX\taps2_7CB8A78E.wem</Path>
 				</File>
 				<File Id="362068587" Language="SFX">
 					<ShortName>picaporte4.wav</ShortName>
-					<Path>SFX\picaporte4_419FA920.wem</Path>
+					<Path>SFX\picaporte4_5F5C95DE.wem</Path>
 				</File>
-				<File Id="376157099" Language="SFX">
-					<ShortName>golpes_latas3.wav</ShortName>
-					<Path>SFX\golpes_latas3_10C4C929.wem</Path>
+				<File Id="435195137" Language="SFX">
+					<ShortName>ventana1.wav</ShortName>
+					<Path>SFX\ventana1_77F532A1.wem</Path>
 				</File>
-				<File Id="381798563" Language="SFX">
-					<ShortName>golpes_latas5.wav</ShortName>
-					<Path>SFX\golpes_latas5_10C4C929.wem</Path>
+				<File Id="508980306" Language="SFX">
+					<ShortName>golpes-latas3-mod.wav</ShortName>
+					<Path>SFX\golpes-latas3-mod_10C4C929.wem</Path>
 				</File>
 				<File Id="518096694" Language="SFX">
 					<ShortName>picaporte1.wav</ShortName>
-					<Path>SFX\picaporte1_D73FE1D3.wem</Path>
+					<Path>SFX\picaporte1_DB32ED9F.wem</Path>
+				</File>
+				<File Id="533089421" Language="SFX">
+					<ShortName>ventana2.wav</ShortName>
+					<Path>SFX\ventana2_6771D144.wem</Path>
 				</File>
 				<File Id="538552812" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_5CE9969B.wem</Path>
+					<Path>SFX\taps2_F6F0383C.wem</Path>
 				</File>
 				<File Id="693511078" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_E091FF30.wem</Path>
+					<Path>SFX\taps1_12E37E79.wem</Path>
 				</File>
-				<File Id="693567509" Language="SFX">
-					<ShortName>golpes_latas2.wav</ShortName>
-					<Path>SFX\golpes_latas2_10C4C929.wem</Path>
+				<File Id="698195814" Language="SFX">
+					<ShortName>golpes-latas5-mod.wav</ShortName>
+					<Path>SFX\golpes-latas5-mod_10C4C929.wem</Path>
 				</File>
 				<File Id="790809328" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_A600F12E.wem</Path>
+					<Path>SFX\taps1_5B3F8F72.wem</Path>
+				</File>
+				<File Id="813682556" Language="SFX">
+					<ShortName>ventana3.wav</ShortName>
+					<Path>SFX\ventana3_AA20CE6D.wem</Path>
 				</File>
 				<File Id="814756210" Language="SFX">
 					<ShortName>globo.wav</ShortName>
@@ -88,19 +97,15 @@
 				</File>
 				<File Id="867926429" Language="SFX">
 					<ShortName>Ambiente2.wav</ShortName>
-					<Path>SFX\Ambiente2_0E77ED6F.wem</Path>
-				</File>
-				<File Id="902654082" Language="SFX">
-					<ShortName>golpes_latas1.wav</ShortName>
-					<Path>SFX\golpes_latas1_10C4C929.wem</Path>
+					<Path>SFX\Ambiente2_5F57CA48.wem</Path>
 				</File>
 				<File Id="928788019" Language="SFX">
 					<ShortName>picaporte3.wav</ShortName>
-					<Path>SFX\picaporte3_BF54EA68.wem</Path>
+					<Path>SFX\picaporte3_6B610B5D.wem</Path>
 				</File>
 				<File Id="1059020161" Language="SFX">
 					<ShortName>picaporte2.wav</ShortName>
-					<Path>SFX\picaporte2_B38B5628.wem</Path>
+					<Path>SFX\picaporte2_E54C6A42.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
