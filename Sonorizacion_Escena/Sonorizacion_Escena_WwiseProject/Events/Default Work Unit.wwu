@@ -36,20 +36,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Globo" ID="{D738F17F-748A-42F2-88D7-94141D41B152}">
-					<ChildrenList>
-						<Action Name="" ID="{09EF201A-6C1D-4BB2-8270-D9501C5731C2}" ShortID="378645953">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Globo" ID="{F32C478C-6904-49D7-BB27-FD38EFCF13A4}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Ambiente2" ID="{670F1A11-C61E-48EC-AE78-39DC04ADDA6B}">
 					<ChildrenList>
 						<Action Name="" ID="{AFC25630-5062-447C-8F7C-F8C16FDAFB1A}" ShortID="48607073">
@@ -89,6 +75,42 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ventanas" ID="{F5058A8B-C0CA-4105-8C23-A004073438DD}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Computadora" ID="{730A42E0-97F8-4206-A4AA-24B26233F357}">
+					<ChildrenList>
+						<Action Name="" ID="{89543300-7C13-4DA3-A4EE-F6DF97928662}" ShortID="162236139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Computadora" ID="{33C131D5-8CED-439A-90CD-36E636B55368}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Steps" ID="{4A6194F2-2091-4963-9DB2-7B84B3417993}">
+					<ChildrenList>
+						<Action Name="" ID="{5761E699-55C2-4F45-9CB9-44B0B8C6319C}" ShortID="210046795">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{21D84382-45C6-4BE2-A3E3-2992CF69537F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Steps" ID="{15F7A67A-C5C7-4661-9195-7E5A552D8764}">
+					<ChildrenList>
+						<Action Name="" ID="{45305A87-125E-4C48-B96D-759C0E5EDD71}" ShortID="860210595">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{21D84382-45C6-4BE2-A3E3-2992CF69537F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

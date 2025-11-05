@@ -16,19 +16,21 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1385735751">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3604618415">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
-				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="100." DurationType="Infinite"/>
+				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="5." DurationType="Infinite"/>
+				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="5." DurationType="Infinite"/>
 				<Event Id="2399670526" Name="Play_metal_impact_247482" ObjectPath="\Events\Default Work Unit\Play_metal_impact_247482" DurationType="OneShot" DurationMin="0.391837" DurationMax="0.391837"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" DurationType="OneShot" DurationMin="0.296815" DurationMax="0.419002"/>
+				<Event Id="2600469463" Name="Play_Steps" ObjectPath="\Events\Default Work Unit\Play_Steps" DurationType="Infinite"/>
 				<Event Id="451097472" Name="Play_Tachos" ObjectPath="\Events\Default Work Unit\Play_Tachos" DurationType="OneShot" DurationMin="0.194604" DurationMax="0.194604"/>
 				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" DurationType="OneShot" DurationMin="0.094374" DurationMax="0.174117"/>
 				<Event Id="645244742" Name="Play_Ventanas" ObjectPath="\Events\Default Work Unit\Play_Ventanas" DurationType="OneShot" DurationMin="0.165839" DurationMax="0.247123"/>
-				<Event Id="628854749" Name="Stop_Globo" ObjectPath="\Events\Default Work Unit\Stop_Globo" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2634345273" Name="Stop_Steps" ObjectPath="\Events\Default Work Unit\Stop_Steps" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="53502942" Language="SFX">
@@ -47,13 +49,21 @@
 					<ShortName>taps2.wav</ShortName>
 					<Path>SFX\taps2_7CB8A78E.wem</Path>
 				</File>
+				<File Id="342276149" Language="SFX">
+					<ShortName>pasosMetal.wav</ShortName>
+					<Path>SFX\pasosMetal_D79FB2B7.wem</Path>
+				</File>
 				<File Id="362068587" Language="SFX">
 					<ShortName>picaporte4.wav</ShortName>
 					<Path>SFX\picaporte4_5F5C95DE.wem</Path>
 				</File>
 				<File Id="435195137" Language="SFX">
 					<ShortName>ventana1.wav</ShortName>
-					<Path>SFX\ventana1_77F532A1.wem</Path>
+					<Path>SFX\ventana1_E6B6E0E7.wem</Path>
+				</File>
+				<File Id="439956060" Language="SFX">
+					<ShortName>pasosLuna.wav</ShortName>
+					<Path>SFX\pasosLuna_D79FB2B7.wem</Path>
 				</File>
 				<File Id="508980306" Language="SFX">
 					<ShortName>golpes-latas3-mod.wav</ShortName>
@@ -65,11 +75,15 @@
 				</File>
 				<File Id="533089421" Language="SFX">
 					<ShortName>ventana2.wav</ShortName>
-					<Path>SFX\ventana2_6771D144.wem</Path>
+					<Path>SFX\ventana2_27EF00A7.wem</Path>
 				</File>
 				<File Id="538552812" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
 					<Path>SFX\taps2_F6F0383C.wem</Path>
+				</File>
+				<File Id="681471503" Language="SFX">
+					<ShortName>computadora-mod.wav</ShortName>
+					<Path>SFX\computadora-mod_D79FB2B7.wem</Path>
 				</File>
 				<File Id="693511078" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
@@ -85,7 +99,7 @@
 				</File>
 				<File Id="813682556" Language="SFX">
 					<ShortName>ventana3.wav</ShortName>
-					<Path>SFX\ventana3_AA20CE6D.wem</Path>
+					<Path>SFX\ventana3_4EC22987.wem</Path>
 				</File>
 				<File Id="814756210" Language="SFX">
 					<ShortName>globo.wav</ShortName>
@@ -108,6 +122,14 @@
 					<Path>SFX\picaporte2_E54C6A42.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="4168292868" Name="Floor_Type" ObjectPath="\Switches\Default Work Unit\Floor_Type" GUID="{C7AF8D45-3A77-4C49-A9B8-157772C08E90}">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Floor_Type\Metal" GUID="{FD67AC1C-2C16-4399-9C35-3D3F2F8F4A0B}"/>
+						<Switch Id="677774027" Name="Lune" ObjectPath="\Switches\Default Work Unit\Floor_Type\Lune" GUID="{C0F986C3-4D00-466E-B107-148209C40C7C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

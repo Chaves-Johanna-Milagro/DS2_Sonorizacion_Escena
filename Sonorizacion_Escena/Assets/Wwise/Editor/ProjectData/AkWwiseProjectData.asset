@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584398130651160438
+    m_lastTime: -8584392972752439093
     List:
     - name: Play_Ambiente2
       guid: 111a0f671ec6ec48ae7839dc04adda6b
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Computadora
+      guid: e0420a73f8970642a4aa24b26233f357
+      id: 3915865825
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Computadora
+        ObjectType: 3
+        guid: e0420a73f8970642a4aa24b26233f357
+      Path: Events\Default Work Unit\Play_Computadora
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Globo
       guid: 12d7374d4d64ec4db4c8187d68681e3f
       id: 4069076147
@@ -127,7 +144,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 12d7374d4d64ec4db4c8187d68681e3f
       Path: Events\Default Work Unit\Play_Globo
-      maxAttenuation: 100
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_metal_impact_247482
@@ -164,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.419002
       minDuration: 0.296815
+    - name: Play_Steps
+      guid: f294614a912063499db27b84b3417993
+      id: 2600469463
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Steps
+        ObjectType: 3
+        guid: f294614a912063499db27b84b3417993
+      Path: Events\Default Work Unit\Play_Steps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Tachos
       guid: 110294ab4f7b204e8d2bdfceaece0ee6
       id: 451097472
@@ -215,9 +249,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.247123
       minDuration: 0.165839
-    - name: Stop_Globo
-      guid: 7ff138d78a74f24288d794141d41b152
-      id: 628854749
+    - name: Stop_Steps
+      guid: 7aa6f715c7c5614691957e5a552d8764
+      id: 2634345273
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -225,10 +259,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Stop_Globo
+      - ElementName: Stop_Steps
         ObjectType: 3
-        guid: 7ff138d78a74f24288d794141d41b152
-      Path: Events\Default Work Unit\Stop_Globo
+        guid: 7aa6f715c7c5614691957e5a552d8764
+      Path: Events\Default Work Unit\Stop_Steps
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -272,8 +306,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 50ef6636bfd02745ad4bc5a13f2f1e91
     GuidInternal: 
-    m_lastTime: -8584406728059542319
-    List: []
+    m_lastTime: -8584392982356894191
+    List:
+    - name: Floor_Type
+      guid: 458dafc7773a494ca9b8157772c08e90
+      id: 4168292868
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+      - ElementName: Floor_Type
+        ObjectType: 11
+        guid: 458dafc7773a494ca9b8157772c08e90
+      Path: Switches\Default Work Unit\Floor_Type
+      values:
+      - name: Lune
+        guid: c386f9c0004d6e46b107148209c40c7c
+        id: 677774027
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+        - ElementName: Floor_Type
+          ObjectType: 11
+          guid: 458dafc7773a494ca9b8157772c08e90
+        - ElementName: Lune
+          ObjectType: 10
+          guid: c386f9c0004d6e46b107148209c40c7c
+      - name: Metal
+        guid: 1cac67fd162c99439c353d3f2f8f4a0b
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+        - ElementName: Floor_Type
+          ObjectType: 11
+          guid: 458dafc7773a494ca9b8157772c08e90
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 1cac67fd162c99439c353d3f2f8f4a0b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -289,7 +373,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000006200000063000000c0000000c1000000f5000000f6000000f8000000f90000000801000009010000
+  ExpandedWaapiItemIds: 05000000060000000700000016000000170000001800000019000000b6000000b7000000a5010000a6010000a7010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,28 +1,40 @@
 Event	ID	Name			Wwise Object Path	Notes
 	451097472	Play_Tachos			\Default Work Unit\Play_Tachos	
 	578466671	Play_Ambiente2			\Default Work Unit\Play_Ambiente2	
-	628854749	Stop_Globo			\Default Work Unit\Stop_Globo	
 	645244742	Play_Ventanas			\Default Work Unit\Play_Ventanas	
 	2399670526	Play_metal_impact_247482			\Default Work Unit\Play_metal_impact_247482	
+	2600469463	Play_Steps			\Default Work Unit\Play_Steps	
+	2634345273	Stop_Steps			\Default Work Unit\Stop_Steps	
 	3093474282	Play_Picaportes			\Default Work Unit\Play_Picaportes	
 	3174868516	Play_TapsPantallas			\Default Work Unit\Play_TapsPantallas	
+	3915865825	Play_Computadora			\Default Work Unit\Play_Computadora	
 	4069076147	Play_Globo			\Default Work Unit\Play_Globo	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4168292868	Floor_Type			\Default Work Unit\Floor_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	677774027	Lune	Floor_Type			
+	2473969246	Metal	Floor_Type			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	53502942	golpes-latas4-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\golpes-latas4-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas4-mod		37428
 	113655967	taps2_01	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps2_CE425E63.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2_01		26024
 	172883275	taps1_01	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps1_8A32F4B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1_01		18184
 	193043247	taps2_02	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps2_7CB8A78E.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2_02		24604
+	342276149	pasosMetal	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\pasosMetal_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\pasosMetal		1256584
 	362068587	picaporte4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\picaporte4_5F5C95DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte4		57052
-	435195137	ventana1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana1_77F532A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana1		31908
+	435195137	ventana1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana1_E6B6E0E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana1		31908
+	439956060	pasosLuna	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\pasosLuna_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\pasosLuna		1098916
 	508980306	golpes-latas3-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\golpes-latas3-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas3-mod		37428
 	518096694	picaporte1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\picaporte1_DB32ED9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte1		80512
-	533089421	ventana2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana2_6771D144.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana2		40020
+	533089421	ventana2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana2_27EF00A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana2		40020
 	538552812	taps2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps2_F6F0383C.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2		33496
+	681471503	Computadora	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\computadora-mod_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computadora		2207368
 	693511078	taps1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps1_12E37E79.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1		23052
 	698195814	golpes-latas5-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\golpes-latas5-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas5-mod		37428
 	790809328	taps1_02	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps1_5B3F8F72.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1_02		18184
-	813682556	ventana3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana3_AA20CE6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana3		47512
+	813682556	ventana3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana3_4EC22987.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana3		47512
 	814756210	Globo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\globo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Globo		2207368
 	865251042	metal-impact-247482	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\metal-impact-247482_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metal-impact-247482		34624
 	867926429	Ambiente2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\Ambiente2_5F57CA48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente2		1632128
