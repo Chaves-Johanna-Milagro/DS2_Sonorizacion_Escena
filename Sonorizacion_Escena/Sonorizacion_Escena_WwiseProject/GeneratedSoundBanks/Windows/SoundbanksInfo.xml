@@ -16,86 +16,115 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3604618415">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3979893201">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="585776263" Name="Play_Alien" ObjectPath="\Events\Default Work Unit\Play_Alien" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.227" DurationMax="5.908021"/>
+				<Event Id="1245305155" Name="Play_AlienDialog" ObjectPath="\Events\Default Work Unit\Play_AlienDialog" MaxAttenuation="10." DurationType="OneShot" DurationMin="17.233875" DurationMax="17.233875"/>
 				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
-				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="5." DurationType="Infinite"/>
-				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="5." DurationType="Infinite"/>
-				<Event Id="2399670526" Name="Play_metal_impact_247482" ObjectPath="\Events\Default Work Unit\Play_metal_impact_247482" DurationType="OneShot" DurationMin="0.391837" DurationMax="0.391837"/>
-				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" DurationType="OneShot" DurationMin="0.296815" DurationMax="0.419002"/>
-				<Event Id="2600469463" Name="Play_Steps" ObjectPath="\Events\Default Work Unit\Play_Steps" DurationType="Infinite"/>
-				<Event Id="451097472" Name="Play_Tachos" ObjectPath="\Events\Default Work Unit\Play_Tachos" DurationType="OneShot" DurationMin="0.194604" DurationMax="0.194604"/>
-				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" DurationType="OneShot" DurationMin="0.094374" DurationMax="0.174117"/>
+				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.548638" DurationMax="1.877358"/>
+				<Event Id="2639633249" Name="Play_TachosNormales" ObjectPath="\Events\Default Work Unit\Play_TachosNormales" MaxAttenuation="12." DurationType="OneShot" DurationMin="0.7809" DurationMax="1.142211"/>
+				<Event Id="116977947" Name="Play_TachosPeligrosos" ObjectPath="\Events\Default Work Unit\Play_TachosPeligrosos" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.157203" DurationMax="1.27157"/>
+				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" MaxAttenuation="8." DurationType="OneShot" DurationMin="1.83675" DurationMax="2.276475"/>
 				<Event Id="645244742" Name="Play_Ventanas" ObjectPath="\Events\Default Work Unit\Play_Ventanas" DurationType="OneShot" DurationMin="0.165839" DurationMax="0.247123"/>
-				<Event Id="2634345273" Name="Stop_Steps" ObjectPath="\Events\Default Work Unit\Stop_Steps" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="855891249" Name="Stop_AlienDialog" ObjectPath="\Events\Default Work Unit\Stop_AlienDialog" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="53502942" Language="SFX">
-					<ShortName>golpes-latas4-mod.wav</ShortName>
-					<Path>SFX\golpes-latas4-mod_10C4C929.wem</Path>
+				<File Id="24858689" Language="SFX">
+					<ShortName>taps5.wav</ShortName>
+					<Path>SFX\taps5_21F7C55D.wem</Path>
 				</File>
 				<File Id="113655967" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_CE425E63.wem</Path>
+					<Path>SFX\taps2_36D8913C.wem</Path>
 				</File>
 				<File Id="172883275" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_8A32F4B6.wem</Path>
+					<Path>SFX\taps1_67C24541.wem</Path>
 				</File>
-				<File Id="193043247" Language="SFX">
-					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_7CB8A78E.wem</Path>
+				<File Id="174578103" Language="SFX">
+					<ShortName>alien3.wav</ShortName>
+					<Path>SFX\alien3_10C4C929.wem</Path>
 				</File>
-				<File Id="342276149" Language="SFX">
-					<ShortName>pasosMetal.wav</ShortName>
-					<Path>SFX\pasosMetal_D79FB2B7.wem</Path>
+				<File Id="214259862" Language="SFX">
+					<ShortName>alien6.wav</ShortName>
+					<Path>SFX\alien6_10C4C929.wem</Path>
+				</File>
+				<File Id="293429537" Language="SFX">
+					<ShortName>lata_peligro2.wav</ShortName>
+					<Path>SFX\lata_peligro2_6117323C.wem</Path>
+				</File>
+				<File Id="304667064" Language="SFX">
+					<ShortName>alien4.wav</ShortName>
+					<Path>SFX\alien4_10C4C929.wem</Path>
+				</File>
+				<File Id="343494719" Language="SFX">
+					<ShortName>taps3.wav</ShortName>
+					<Path>SFX\taps3_F65F6056.wem</Path>
+				</File>
+				<File Id="354737974" Language="SFX">
+					<ShortName>golpes_latas4.wav</ShortName>
+					<Path>SFX\golpes_latas4_D395D480.wem</Path>
 				</File>
 				<File Id="362068587" Language="SFX">
 					<ShortName>picaporte4.wav</ShortName>
-					<Path>SFX\picaporte4_5F5C95DE.wem</Path>
+					<Path>SFX\picaporte4_7214572A.wem</Path>
+				</File>
+				<File Id="376157099" Language="SFX">
+					<ShortName>golpes_latas3.wav</ShortName>
+					<Path>SFX\golpes_latas3_83037C35.wem</Path>
+				</File>
+				<File Id="381798563" Language="SFX">
+					<ShortName>golpes_latas5.wav</ShortName>
+					<Path>SFX\golpes_latas5_3F8A122D.wem</Path>
+				</File>
+				<File Id="434677017" Language="SFX">
+					<ShortName>alien1.wav</ShortName>
+					<Path>SFX\alien1_10C4C929.wem</Path>
 				</File>
 				<File Id="435195137" Language="SFX">
 					<ShortName>ventana1.wav</ShortName>
 					<Path>SFX\ventana1_E6B6E0E7.wem</Path>
 				</File>
-				<File Id="439956060" Language="SFX">
-					<ShortName>pasosLuna.wav</ShortName>
-					<Path>SFX\pasosLuna_D79FB2B7.wem</Path>
-				</File>
-				<File Id="508980306" Language="SFX">
-					<ShortName>golpes-latas3-mod.wav</ShortName>
-					<Path>SFX\golpes-latas3-mod_10C4C929.wem</Path>
-				</File>
 				<File Id="518096694" Language="SFX">
 					<ShortName>picaporte1.wav</ShortName>
-					<Path>SFX\picaporte1_DB32ED9F.wem</Path>
+					<Path>SFX\picaporte1_DDB2CA2D.wem</Path>
 				</File>
 				<File Id="533089421" Language="SFX">
 					<ShortName>ventana2.wav</ShortName>
 					<Path>SFX\ventana2_27EF00A7.wem</Path>
 				</File>
-				<File Id="538552812" Language="SFX">
-					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_F6F0383C.wem</Path>
+				<File Id="563871138" Language="SFX">
+					<ShortName>alien2.wav</ShortName>
+					<Path>SFX\alien2_10C4C929.wem</Path>
 				</File>
-				<File Id="681471503" Language="SFX">
-					<ShortName>computadora-mod.wav</ShortName>
-					<Path>SFX\computadora-mod_D79FB2B7.wem</Path>
+				<File Id="596419025" Language="SFX">
+					<ShortName>alien8.wav</ShortName>
+					<Path>SFX\alien8_10C4C929.wem</Path>
 				</File>
-				<File Id="693511078" Language="SFX">
-					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_12E37E79.wem</Path>
+				<File Id="693567509" Language="SFX">
+					<ShortName>golpes_latas2.wav</ShortName>
+					<Path>SFX\golpes_latas2_8E29DF37.wem</Path>
 				</File>
-				<File Id="698195814" Language="SFX">
-					<ShortName>golpes-latas5-mod.wav</ShortName>
-					<Path>SFX\golpes-latas5-mod_10C4C929.wem</Path>
+				<File Id="708347851" Language="SFX">
+					<ShortName>computadora.wav</ShortName>
+					<Path>SFX\computadora_D79FB2B7.wem</Path>
 				</File>
-				<File Id="790809328" Language="SFX">
-					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_5B3F8F72.wem</Path>
+				<File Id="744739784" Language="SFX">
+					<ShortName>lata_peligro3.wav</ShortName>
+					<Path>SFX\lata_peligro3_8EBEE67A.wem</Path>
+				</File>
+				<File Id="785584677" Language="SFX">
+					<ShortName>alien5.wav</ShortName>
+					<Path>SFX\alien5_10C4C929.wem</Path>
+				</File>
+				<File Id="804565411" Language="SFX">
+					<ShortName>alien7.wav</ShortName>
+					<Path>SFX\alien7_10C4C929.wem</Path>
 				</File>
 				<File Id="813682556" Language="SFX">
 					<ShortName>ventana3.wav</ShortName>
@@ -105,31 +134,31 @@
 					<ShortName>globo.wav</ShortName>
 					<Path>SFX\globo_D79FB2B7.wem</Path>
 				</File>
-				<File Id="865251042" Language="SFX">
-					<ShortName>metal-impact-247482.wav</ShortName>
-					<Path>SFX\metal-impact-247482_10C4C929.wem</Path>
-				</File>
 				<File Id="867926429" Language="SFX">
 					<ShortName>Ambiente2.wav</ShortName>
 					<Path>SFX\Ambiente2_5F57CA48.wem</Path>
 				</File>
+				<File Id="902654082" Language="SFX">
+					<ShortName>golpes_latas1.wav</ShortName>
+					<Path>SFX\golpes_latas1_8AA6E125.wem</Path>
+				</File>
 				<File Id="928788019" Language="SFX">
 					<ShortName>picaporte3.wav</ShortName>
-					<Path>SFX\picaporte3_6B610B5D.wem</Path>
+					<Path>SFX\picaporte3_CDCA2A89.wem</Path>
+				</File>
+				<File Id="948421974" Language="SFX">
+					<ShortName>taps4.wav</ShortName>
+					<Path>SFX\taps4_4AD66D25.wem</Path>
+				</File>
+				<File Id="960778959" Language="SFX">
+					<ShortName>lata_peligro1.wav</ShortName>
+					<Path>SFX\lata_peligro1_DA8B161A.wem</Path>
 				</File>
 				<File Id="1059020161" Language="SFX">
 					<ShortName>picaporte2.wav</ShortName>
-					<Path>SFX\picaporte2_E54C6A42.wem</Path>
+					<Path>SFX\picaporte2_A8A8F47F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
-			<SwitchGroups>
-				<SwitchGroup Id="4168292868" Name="Floor_Type" ObjectPath="\Switches\Default Work Unit\Floor_Type" GUID="{C7AF8D45-3A77-4C49-A9B8-157772C08E90}">
-					<Switches>
-						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Floor_Type\Metal" GUID="{FD67AC1C-2C16-4399-9C35-3D3F2F8F4A0B}"/>
-						<Switch Id="677774027" Name="Lune" ObjectPath="\Switches\Default Work Unit\Floor_Type\Lune" GUID="{C0F986C3-4D00-466E-B107-148209C40C7C}"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

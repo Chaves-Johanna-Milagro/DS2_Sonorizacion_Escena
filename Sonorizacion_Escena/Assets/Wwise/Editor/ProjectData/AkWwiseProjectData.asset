@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: fd618b7b12d6a948bc3b752605a3bfd6
     GuidInternal: 
-    m_lastTime: -8584406188651445309
+    m_lastTime: -8584406728058128759
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6684c54fd350f1469b39df137e1a1f1b
     GuidInternal: 
-    m_lastTime: -8584406188651495356
+    m_lastTime: -8584406728059910995
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 97c787a25db4e24fb792e67472e1edcc
     GuidInternal: 
-    m_lastTime: -8584406188651455323
+    m_lastTime: -8584406320447967521
     List:
     - name: Main
       guid: 1594e76ae8ae6248b831454ebde33409
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584388052554291573
+    m_lastTime: -8584387221417109493
     List:
+    - name: Play_Alien
+      guid: 2b96eff71065304f953a67040b5d75e0
+      id: 585776263
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Alien
+        ObjectType: 3
+        guid: 2b96eff71065304f953a67040b5d75e0
+      Path: Events\Default Work Unit\Play_Alien
+      maxAttenuation: 10
+      maxDuration: 5.908021
+      minDuration: 2.227
+    - name: Play_AlienDialog
+      guid: 9c3adf06903f304593c8bb07b71dd274
+      id: 1245305155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_AlienDialog
+        ObjectType: 3
+        guid: 9c3adf06903f304593c8bb07b71dd274
+      Path: Events\Default Work Unit\Play_AlienDialog
+      maxAttenuation: 10
+      maxDuration: 17.233875
+      minDuration: 17.233875
     - name: Play_Ambiente2
       guid: 111a0f671ec6ec48ae7839dc04adda6b
       id: 578466671
@@ -114,7 +148,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Play_Computadora
-      guid: e0420a73f8970642a4aa24b26233f357
+      guid: 557809d53eba6d43a1bd27134edc729d
       id: 3915865825
       PathAndIcons:
       - ElementName: Events
@@ -125,13 +159,13 @@ MonoBehaviour:
         guid: 94adfb6c8393c14da110ead6bcf1d490
       - ElementName: Play_Computadora
         ObjectType: 3
-        guid: e0420a73f8970642a4aa24b26233f357
+        guid: 557809d53eba6d43a1bd27134edc729d
       Path: Events\Default Work Unit\Play_Computadora
-      maxAttenuation: 5
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Globo
-      guid: 12d7374d4d64ec4db4c8187d68681e3f
+      guid: 6f764e0150ec3e479cadc6ab42cba764
       id: 4069076147
       PathAndIcons:
       - ElementName: Events
@@ -142,28 +176,11 @@ MonoBehaviour:
         guid: 94adfb6c8393c14da110ead6bcf1d490
       - ElementName: Play_Globo
         ObjectType: 3
-        guid: 12d7374d4d64ec4db4c8187d68681e3f
+        guid: 6f764e0150ec3e479cadc6ab42cba764
       Path: Events\Default Work Unit\Play_Globo
-      maxAttenuation: 5
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
-    - name: Play_metal_impact_247482
-      guid: 1b0b31f803d1d943b4520c0ee8e6a85a
-      id: 2399670526
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_metal_impact_247482
-        ObjectType: 3
-        guid: 1b0b31f803d1d943b4520c0ee8e6a85a
-      Path: Events\Default Work Unit\Play_metal_impact_247482
-      maxAttenuation: 0
-      maxDuration: 0.391837
-      minDuration: 0.391837
     - name: Play_Picaportes
       guid: 481ba1cf8e2ae24c866efd7e62c3e290
       id: 3093474282
@@ -178,12 +195,12 @@ MonoBehaviour:
         ObjectType: 3
         guid: 481ba1cf8e2ae24c866efd7e62c3e290
       Path: Events\Default Work Unit\Play_Picaportes
-      maxAttenuation: 0
-      maxDuration: 0.419002
-      minDuration: 0.296815
-    - name: Play_Steps
-      guid: f294614a912063499db27b84b3417993
-      id: 2600469463
+      maxAttenuation: 12
+      maxDuration: 1.877358
+      minDuration: 1.548638
+    - name: Play_TachosNormales
+      guid: d998c014c22f7e4c9f05b751ceda2e65
+      id: 2639633249
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -191,16 +208,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_Steps
+      - ElementName: Play_TachosNormales
         ObjectType: 3
-        guid: f294614a912063499db27b84b3417993
-      Path: Events\Default Work Unit\Play_Steps
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Tachos
-      guid: 110294ab4f7b204e8d2bdfceaece0ee6
-      id: 451097472
+        guid: d998c014c22f7e4c9f05b751ceda2e65
+      Path: Events\Default Work Unit\Play_TachosNormales
+      maxAttenuation: 12
+      maxDuration: 1.142211
+      minDuration: 0.7809
+    - name: Play_TachosPeligrosos
+      guid: 3ffacb44fa72f14eaf5e7218eccc74cb
+      id: 116977947
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -208,13 +225,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_Tachos
+      - ElementName: Play_TachosPeligrosos
         ObjectType: 3
-        guid: 110294ab4f7b204e8d2bdfceaece0ee6
-      Path: Events\Default Work Unit\Play_Tachos
-      maxAttenuation: 0
-      maxDuration: 0.194604
-      minDuration: 0.194604
+        guid: 3ffacb44fa72f14eaf5e7218eccc74cb
+      Path: Events\Default Work Unit\Play_TachosPeligrosos
+      maxAttenuation: 12
+      maxDuration: 1.27157
+      minDuration: 1.157203
     - name: Play_TapsPantallas
       guid: 296b32074bf3644a80aead12cbc8d5a5
       id: 3174868516
@@ -229,9 +246,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 296b32074bf3644a80aead12cbc8d5a5
       Path: Events\Default Work Unit\Play_TapsPantallas
-      maxAttenuation: 0
-      maxDuration: 0.174117
-      minDuration: 0.094374
+      maxAttenuation: 8
+      maxDuration: 2.276475
+      minDuration: 1.83675
     - name: Play_Ventanas
       guid: 75d1765ce41cd14a8fc20239d280d6fa
       id: 645244742
@@ -249,9 +266,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.247123
       minDuration: 0.165839
-    - name: Stop_Steps
-      guid: 7aa6f715c7c5614691957e5a552d8764
-      id: 2634345273
+    - name: Stop_AlienDialog
+      guid: 0f1362288304ea458dccf6dc00e14ebe
+      id: 855891249
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -259,10 +276,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Stop_Steps
+      - ElementName: Stop_AlienDialog
         ObjectType: 3
-        guid: 7aa6f715c7c5614691957e5a552d8764
-      Path: Events\Default Work Unit\Stop_Steps
+        guid: 0f1362288304ea458dccf6dc00e14ebe
+      Path: Events\Default Work Unit\Stop_AlienDialog
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -278,7 +295,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 7d9c90343322724fb57be665cf06e59a
     GuidInternal: 
-    m_lastTime: -8584406188651525383
+    m_lastTime: -8584406728059296523
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -292,7 +309,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 0ef4cde859d75d48bc3f10e8ac5d3d27
     GuidInternal: 
-    m_lastTime: -8584406188651455323
+    m_lastTime: -8584406728059189060
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -306,7 +323,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 50ef6636bfd02745ad4bc5a13f2f1e91
     GuidInternal: 
-    m_lastTime: -8584388052552339798
+    m_lastTime: -8584388015043903423
     List:
     - name: Floor_Type
       guid: 458dafc7773a494ca9b8157772c08e90
@@ -370,10 +387,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c54500b473c41d429162f6f524be645b
     GuidInternal: 
-    m_lastTime: -8584406188651455323
+    m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000500000006000000070000004500000046000000e3000000e4000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

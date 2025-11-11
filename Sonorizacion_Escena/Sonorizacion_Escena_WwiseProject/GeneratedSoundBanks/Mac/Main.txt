@@ -1,43 +1,46 @@
 Event	ID	Name			Wwise Object Path	Notes
-	451097472	Play_Tachos			\Default Work Unit\Play_Tachos	
+	116977947	Play_TachosPeligrosos			\Default Work Unit\Play_TachosPeligrosos	
 	578466671	Play_Ambiente2			\Default Work Unit\Play_Ambiente2	
+	585776263	Play_Alien			\Default Work Unit\Play_Alien	
 	645244742	Play_Ventanas			\Default Work Unit\Play_Ventanas	
-	2399670526	Play_metal_impact_247482			\Default Work Unit\Play_metal_impact_247482	
-	2600469463	Play_Steps			\Default Work Unit\Play_Steps	
-	2634345273	Stop_Steps			\Default Work Unit\Stop_Steps	
+	855891249	Stop_AlienDialog			\Default Work Unit\Stop_AlienDialog	
+	1245305155	Play_AlienDialog			\Default Work Unit\Play_AlienDialog	
+	2639633249	Play_TachosNormales			\Default Work Unit\Play_TachosNormales	
 	3093474282	Play_Picaportes			\Default Work Unit\Play_Picaportes	
 	3174868516	Play_TapsPantallas			\Default Work Unit\Play_TapsPantallas	
 	3915865825	Play_Computadora			\Default Work Unit\Play_Computadora	
 	4069076147	Play_Globo			\Default Work Unit\Play_Globo	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	4168292868	Floor_Type			\Default Work Unit\Floor_Type	
-
-Switch	ID	Name	Switch Group			Notes
-	677774027	Lune	Floor_Type			
-	2473969246	Metal	Floor_Type			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	53502942	golpes-latas4-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes-latas4-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas4-mod		37428
-	113655967	taps2_01	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps2_CE425E63.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2_01		26024
-	172883275	taps1_01	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps1_8A32F4B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1_01		18184
-	193043247	taps2_02	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps2_7CB8A78E.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2_02		24604
-	342276149	pasosMetal	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\pasosMetal_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\pasosMetal		1256584
-	362068587	picaporte4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte4_5F5C95DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte4		57052
+	24858689	taps5	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps5_21F7C55D.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps5		437148
+	113655967	taps2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps2_36D8913C.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2		381368
+	172883275	taps1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps1_67C24541.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1		352720
+	174578103	alien3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien3		428400
+	214259862	alien6	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien6		524776
+	293429537	lata_peligro2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro2_6117323C.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro2		222248
+	304667064	alien4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien4		942404
+	343494719	taps3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps3_F65F6056.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps3		389772
+	354737974	golpes_latas4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas4_D395D480.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas4		199176
+	362068587	picaporte4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte4_7214572A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte4		318652
+	376157099	golpes_latas3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas3_83037C35.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas3		219372
+	381798563	golpes_latas5	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas5_3F8A122D.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas5		192876
+	434677017	AlienDialog	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AlienDialog		3308968
 	435195137	ventana1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana1_E6B6E0E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana1		31908
-	439956060	pasosLuna	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\pasosLuna_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\pasosLuna		1098916
-	508980306	golpes-latas3-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes-latas3-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas3-mod		37428
-	518096694	picaporte1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte1_DB32ED9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte1		80512
+	518096694	picaporte1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte1_DDB2CA2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte1		297404
 	533089421	ventana2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana2_27EF00A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana2		40020
-	538552812	taps2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps2_F6F0383C.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2		33496
-	681471503	Computadora	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\computadora-mod_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computadora		2207368
-	693511078	taps1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps1_12E37E79.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1		23052
-	698195814	golpes-latas5-mod	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes-latas5-mod_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tachos\golpes-latas5-mod		37428
-	790809328	taps1_02	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps1_5B3F8F72.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1_02		18184
+	563871138	alien2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien2		674696
+	596419025	alien8	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien8		235648
+	693567509	golpes_latas2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas2_8E29DF37.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas2		196988
+	708347851	Computadora	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\computadora_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computadora		2208064
+	744739784	lata_peligro3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro3_8EBEE67A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro3		244204
+	785584677	alien5	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien5		631860
+	804565411	alien7	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien7		781780
 	813682556	ventana3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana3_4EC22987.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana3		47512
-	814756210	Globo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\globo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Globo		2207368
-	865251042	metal-impact-247482	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\metal-impact-247482_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metal-impact-247482		34624
+	814756210	Globo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\globo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Globo		2208064
 	867926429	Ambiente2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\Ambiente2_5F57CA48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente2		1632128
-	928788019	picaporte3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte3_6B610B5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte3		64556
-	1059020161	picaporte2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte2_E54C6A42.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte2		67680
+	902654082	golpes_latas1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas1_8AA6E125.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas1		149996
+	928788019	picaporte3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte3_CDCA2A89.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte3		308572
+	948421974	taps4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps4_4AD66D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps4		403184
+	960778959	lata_peligro1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro1_DA8B161A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro1		223276
+	1059020161	picaporte2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte2_A8A8F47F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte2		360516
 

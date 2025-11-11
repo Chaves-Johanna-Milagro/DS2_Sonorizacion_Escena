@@ -3,39 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6CFBAD94-9383-4DC1-A110-EAD6BCF1D490}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_metal_impact_247482" ID="{F8310B1B-D103-43D9-B452-0C0EE8E6A85A}">
-					<ChildrenList>
-						<Action Name="" ID="{7C782F9E-164A-4FB6-920D-465517810AA7}" ShortID="644637012">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="metal-impact-247482" ID="{A1AC75B0-2060-4D36-9CDA-7041E645025F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Tachos" ID="{AB940211-7B4F-4E20-8D2B-DFCEAECE0EE6}">
-					<ChildrenList>
-						<Action Name="" ID="{91A4855A-8945-4155-B5B9-9C0B5B10D5EF}" ShortID="914304199">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Tachos" ID="{B457557F-CC3B-46BE-8919-017554E0BF1B}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Globo" ID="{4D37D712-644D-4DEC-B4C8-187D68681E3F}">
-					<ChildrenList>
-						<Action Name="" ID="{76CC91D6-52AA-48BB-8CEB-4C949EC55D76}" ShortID="700670657">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Globo" ID="{F32C478C-6904-49D7-BB27-FD38EFCF13A4}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Ambiente2" ID="{670F1A11-C61E-48EC-AE78-39DC04ADDA6B}">
 					<ChildrenList>
 						<Action Name="" ID="{AFC25630-5062-447C-8F7C-F8C16FDAFB1A}" ShortID="48607073">
@@ -80,37 +47,81 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Computadora" ID="{730A42E0-97F8-4206-A4AA-24B26233F357}">
+				<Event Name="Play_AlienDialog" ID="{06DF3A9C-3F90-4530-93C8-BB07B71DD274}">
 					<ChildrenList>
-						<Action Name="" ID="{89543300-7C13-4DA3-A4EE-F6DF97928662}" ShortID="162236139">
+						<Action Name="" ID="{C963C624-CBC1-48A9-A222-DB8CB968DBAE}" ShortID="914195916">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Computadora" ID="{33C131D5-8CED-439A-90CD-36E636B55368}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+									<ObjectRef Name="AlienDialog" ID="{84615FC9-31D5-4368-985F-D378769E3DDC}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Steps" ID="{4A6194F2-2091-4963-9DB2-7B84B3417993}">
+				<Event Name="Play_Alien" ID="{F7EF962B-6510-4F30-953A-67040B5D75E0}">
 					<ChildrenList>
-						<Action Name="" ID="{5761E699-55C2-4F45-9CB9-44B0B8C6319C}" ShortID="210046795">
+						<Action Name="" ID="{A018CC08-D3CB-4730-AFBE-0611708B16A6}" ShortID="579061730">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Steps" ID="{21D84382-45C6-4BE2-A3E3-2992CF69537F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+									<ObjectRef Name="Alien" ID="{C65D3103-88D5-4A48-81FF-9978E2FA2A27}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Steps" ID="{15F7A67A-C5C7-4661-9195-7E5A552D8764}">
+				<Event Name="Stop_AlienDialog" ID="{2862130F-0483-45EA-8DCC-F6DC00E14EBE}">
 					<ChildrenList>
-						<Action Name="" ID="{45305A87-125E-4C48-B96D-759C0E5EDD71}" ShortID="860210595">
+						<Action Name="" ID="{D2DDBF20-CC79-4CDC-8097-6DF086ADBB4F}" ShortID="383943360">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Steps" ID="{21D84382-45C6-4BE2-A3E3-2992CF69537F}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+									<ObjectRef Name="AlienDialog" ID="{84615FC9-31D5-4368-985F-D378769E3DDC}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TachosNormales" ID="{14C098D9-2FC2-4C7E-9F05-B751CEDA2E65}">
+					<ChildrenList>
+						<Action Name="" ID="{C8D8B3F8-C418-4C75-9E1E-5BD7C9D702B9}" ShortID="103971143">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TachosNormales" ID="{B457557F-CC3B-46BE-8919-017554E0BF1B}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Computadora" ID="{D5097855-BA3E-436D-A1BD-27134EDC729D}">
+					<ChildrenList>
+						<Action Name="" ID="{569852F6-964D-41A4-8874-030849108872}" ShortID="491826342">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Computadora" ID="{A4E38774-3672-4859-B2BD-0FCA3C52DD0E}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Globo" ID="{014E766F-EC50-473E-9CAD-C6AB42CBA764}">
+					<ChildrenList>
+						<Action Name="" ID="{D281C50D-62A8-40C3-914C-1EE49F2F33EF}" ShortID="506618727">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Globo" ID="{E25B8E5A-53B3-44F5-A197-EC7987A41B15}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TachosPeligrosos" ID="{44CBFA3F-72FA-4EF1-AF5E-7218ECCC74CB}">
+					<ChildrenList>
+						<Action Name="" ID="{FBEF5489-9724-49AA-8E12-B327B8392AA0}" ShortID="772348019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TachosPeligrosos" ID="{F13725B1-2E6B-4118-9755-A9D09AB0FB40}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
