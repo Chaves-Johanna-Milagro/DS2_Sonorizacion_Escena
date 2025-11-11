@@ -73,6 +73,8 @@ namespace EasyPeasyFirstPersonController
 
         private void Awake()
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             characterController = GetComponent<CharacterController>();
             cam = playerCamera.GetComponent<Camera>();
             originalHeight = characterController.height;

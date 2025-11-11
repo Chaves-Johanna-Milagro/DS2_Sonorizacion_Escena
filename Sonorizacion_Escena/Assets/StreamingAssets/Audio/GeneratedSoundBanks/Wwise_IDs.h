@@ -13,8 +13,33 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_METAL_IMPACT_247482 = 2399670526U;
+        static const AkUniqueID PLAY_ALIEN = 585776263U;
+        static const AkUniqueID PLAY_ALIENDIALOG = 1245305155U;
+        static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
+        static const AkUniqueID PLAY_COMPUTADORA = 3915865825U;
+        static const AkUniqueID PLAY_GLOBO = 4069076147U;
+        static const AkUniqueID PLAY_PICAPORTES = 3093474282U;
+        static const AkUniqueID PLAY_TACHOSNORMALES = 2639633249U;
+        static const AkUniqueID PLAY_TACHOSPELIGROSOS = 116977947U;
+        static const AkUniqueID PLAY_TAPSPANTALLAS = 3174868516U;
+        static const AkUniqueID PLAY_VENTANAS = 645244742U;
+        static const AkUniqueID STOP_ALIENDIALOG = 855891249U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FLOOR_TYPE
+        {
+            static const AkUniqueID GROUP = 4168292868U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LUNE = 677774027U;
+                static const AkUniqueID METAL = 2473969246U;
+            } // namespace SWITCH
+        } // namespace FLOOR_TYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

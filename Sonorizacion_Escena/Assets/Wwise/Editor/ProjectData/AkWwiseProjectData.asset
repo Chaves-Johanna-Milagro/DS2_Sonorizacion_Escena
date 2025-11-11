@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584406324682573257
+    m_lastTime: -8584387221417109493
     List:
-    - name: Play_metal_impact_247482
-      guid: 1b0b31f803d1d943b4520c0ee8e6a85a
-      id: 2399670526
+    - name: Play_Alien
+      guid: 2b96eff71065304f953a67040b5d75e0
+      id: 585776263
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,183 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_metal_impact_247482
+      - ElementName: Play_Alien
         ObjectType: 3
-        guid: 1b0b31f803d1d943b4520c0ee8e6a85a
-      Path: Events\Default Work Unit\Play_metal_impact_247482
+        guid: 2b96eff71065304f953a67040b5d75e0
+      Path: Events\Default Work Unit\Play_Alien
+      maxAttenuation: 10
+      maxDuration: 5.908021
+      minDuration: 2.227
+    - name: Play_AlienDialog
+      guid: 9c3adf06903f304593c8bb07b71dd274
+      id: 1245305155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_AlienDialog
+        ObjectType: 3
+        guid: 9c3adf06903f304593c8bb07b71dd274
+      Path: Events\Default Work Unit\Play_AlienDialog
+      maxAttenuation: 10
+      maxDuration: 17.233875
+      minDuration: 17.233875
+    - name: Play_Ambiente2
+      guid: 111a0f671ec6ec48ae7839dc04adda6b
+      id: 578466671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ambiente2
+        ObjectType: 3
+        guid: 111a0f671ec6ec48ae7839dc04adda6b
+      Path: Events\Default Work Unit\Play_Ambiente2
       maxAttenuation: 0
-      maxDuration: 0.391837
-      minDuration: 0.391837
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Computadora
+      guid: 557809d53eba6d43a1bd27134edc729d
+      id: 3915865825
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Computadora
+        ObjectType: 3
+        guid: 557809d53eba6d43a1bd27134edc729d
+      Path: Events\Default Work Unit\Play_Computadora
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Globo
+      guid: 6f764e0150ec3e479cadc6ab42cba764
+      id: 4069076147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Globo
+        ObjectType: 3
+        guid: 6f764e0150ec3e479cadc6ab42cba764
+      Path: Events\Default Work Unit\Play_Globo
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Picaportes
+      guid: 481ba1cf8e2ae24c866efd7e62c3e290
+      id: 3093474282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Picaportes
+        ObjectType: 3
+        guid: 481ba1cf8e2ae24c866efd7e62c3e290
+      Path: Events\Default Work Unit\Play_Picaportes
+      maxAttenuation: 12
+      maxDuration: 1.877358
+      minDuration: 1.548638
+    - name: Play_TachosNormales
+      guid: d998c014c22f7e4c9f05b751ceda2e65
+      id: 2639633249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_TachosNormales
+        ObjectType: 3
+        guid: d998c014c22f7e4c9f05b751ceda2e65
+      Path: Events\Default Work Unit\Play_TachosNormales
+      maxAttenuation: 12
+      maxDuration: 1.142211
+      minDuration: 0.7809
+    - name: Play_TachosPeligrosos
+      guid: 3ffacb44fa72f14eaf5e7218eccc74cb
+      id: 116977947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_TachosPeligrosos
+        ObjectType: 3
+        guid: 3ffacb44fa72f14eaf5e7218eccc74cb
+      Path: Events\Default Work Unit\Play_TachosPeligrosos
+      maxAttenuation: 12
+      maxDuration: 1.27157
+      minDuration: 1.157203
+    - name: Play_TapsPantallas
+      guid: 296b32074bf3644a80aead12cbc8d5a5
+      id: 3174868516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_TapsPantallas
+        ObjectType: 3
+        guid: 296b32074bf3644a80aead12cbc8d5a5
+      Path: Events\Default Work Unit\Play_TapsPantallas
+      maxAttenuation: 8
+      maxDuration: 2.276475
+      minDuration: 1.83675
+    - name: Play_Ventanas
+      guid: 75d1765ce41cd14a8fc20239d280d6fa
+      id: 645244742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Ventanas
+        ObjectType: 3
+        guid: 75d1765ce41cd14a8fc20239d280d6fa
+      Path: Events\Default Work Unit\Play_Ventanas
+      maxAttenuation: 0
+      maxDuration: 0.247123
+      minDuration: 0.165839
+    - name: Stop_AlienDialog
+      guid: 0f1362288304ea458dccf6dc00e14ebe
+      id: 855891249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Stop_AlienDialog
+        ObjectType: 3
+        guid: 0f1362288304ea458dccf6dc00e14ebe
+      Path: Events\Default Work Unit\Stop_AlienDialog
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,8 +323,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 50ef6636bfd02745ad4bc5a13f2f1e91
     GuidInternal: 
-    m_lastTime: -8584406728059542319
-    List: []
+    m_lastTime: -8584388015043903423
+    List:
+    - name: Floor_Type
+      guid: 458dafc7773a494ca9b8157772c08e90
+      id: 4168292868
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+      - ElementName: Floor_Type
+        ObjectType: 11
+        guid: 458dafc7773a494ca9b8157772c08e90
+      Path: Switches\Default Work Unit\Floor_Type
+      values:
+      - name: Lune
+        guid: c386f9c0004d6e46b107148209c40c7c
+        id: 677774027
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+        - ElementName: Floor_Type
+          ObjectType: 11
+          guid: 458dafc7773a494ca9b8157772c08e90
+        - ElementName: Lune
+          ObjectType: 10
+          guid: c386f9c0004d6e46b107148209c40c7c
+      - name: Metal
+        guid: 1cac67fd162c99439c353d3f2f8f4a0b
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 50ef6636bfd02745ad4bc5a13f2f1e91
+        - ElementName: Floor_Type
+          ObjectType: 11
+          guid: 458dafc7773a494ca9b8157772c08e90
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 1cac67fd162c99439c353d3f2f8f4a0b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +390,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000004500000046000000e3000000e4000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
