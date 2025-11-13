@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	116977947	Play_TachosPeligrosos			\Default Work Unit\Play_TachosPeligrosos	
+	507353506	Play_Nave			\Default Work Unit\Play_Nave	
 	578466671	Play_Ambiente2			\Default Work Unit\Play_Ambiente2	
 	585776263	Play_Alien			\Default Work Unit\Play_Alien	
 	645244742	Play_Ventanas			\Default Work Unit\Play_Ventanas	
@@ -19,6 +20,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	113655967	taps2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps2_9629AF37.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps2		381368
 	172883275	taps1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\taps1_36B249F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps1		352720
 	174578103	alien3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\alien3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien3		428400
+	203139364	naveMelodia2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\naveMelodia2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nave\MX Nave\naveMelodia2		23040064
 	214259862	alien6	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\alien6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien6		524776
 	262611582	ritmo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ritmo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Exterior\MX Exterior\ritmo		21120064
 	293429537	lata_peligro2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\lata_peligro2_3AF66DD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro2		222248
@@ -34,6 +36,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	533089421	ventana2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\ventana2_27EF00A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana2		40020
 	563871138	alien2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\alien2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien2		674696
 	596419025	alien8	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\alien8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien8		235648
+	644077055	naveBajo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\naveBajo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nave\MX Nave\naveBajo		21120064
 	693567509	golpes_latas2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\golpes_latas2_46A507CD.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas2		196988
 	708347851	Computadora	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\computadora_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computadora		2208064
 	744739784	lata_peligro3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Windows\SFX\lata_peligro3_3D28C74B.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro3		244204

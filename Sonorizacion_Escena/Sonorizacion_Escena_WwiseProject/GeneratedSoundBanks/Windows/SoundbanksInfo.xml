@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2441411378">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1596312194">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -28,6 +28,7 @@
 				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
 				<Event Id="2890489828" Name="Play_Exterior" ObjectPath="\Events\Default Work Unit\Play_Exterior" DurationType="Infinite"/>
 				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="507353506" Name="Play_Nave" ObjectPath="\Events\Default Work Unit\Play_Nave" DurationType="Infinite"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.548638" DurationMax="1.877358"/>
 				<Event Id="2639633249" Name="Play_TachosNormales" ObjectPath="\Events\Default Work Unit\Play_TachosNormales" MaxAttenuation="12." DurationType="OneShot" DurationMin="0.7809" DurationMax="1.142211"/>
 				<Event Id="116977947" Name="Play_TachosPeligrosos" ObjectPath="\Events\Default Work Unit\Play_TachosPeligrosos" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.157203" DurationMax="1.27157"/>
@@ -52,6 +53,10 @@
 				<File Id="174578103" Language="SFX">
 					<ShortName>alien3.wav</ShortName>
 					<Path>SFX\alien3_10C4C929.wem</Path>
+				</File>
+				<File Id="203139364" Language="SFX">
+					<ShortName>naveMelodia2.wav</ShortName>
+					<Path>SFX\naveMelodia2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="214259862" Language="SFX">
 					<ShortName>alien6.wav</ShortName>
@@ -112,6 +117,10 @@
 				<File Id="596419025" Language="SFX">
 					<ShortName>alien8.wav</ShortName>
 					<Path>SFX\alien8_10C4C929.wem</Path>
+				</File>
+				<File Id="644077055" Language="SFX">
+					<ShortName>naveBajo.wav</ShortName>
+					<Path>SFX\naveBajo_D79FB2B7.wem</Path>
 				</File>
 				<File Id="693567509" Language="SFX">
 					<ShortName>golpes_latas2.wav</ShortName>

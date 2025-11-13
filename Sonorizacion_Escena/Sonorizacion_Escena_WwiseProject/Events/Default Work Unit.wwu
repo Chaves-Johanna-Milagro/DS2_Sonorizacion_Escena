@@ -147,6 +147,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{CC76AE97-B42A-46D0-9245-830FA082DF18}" ShortID="465741124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nave" ID="{646BA575-4367-4DFD-B0B1-0D8B3C9F0521}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="UnMute_cuevaMelodia" ID="{732EC0BE-54CA-447D-958F-FA17BA977712}">
@@ -249,6 +261,29 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ritmo" ID="{EAD818A8-4210-48BB-9EA5-3E6BB34AC85A}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Nave" ID="{D1A0C40F-316C-485E-99D7-65D01D9C50ED}">
+					<ChildrenList>
+						<Action Name="" ID="{C3F482AF-BC98-496C-8F15-7E286FAE7488}" ShortID="619830719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nave" ID="{646BA575-4367-4DFD-B0B1-0D8B3C9F0521}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1981074A-C0BE-4CDA-8FF3-06018ECC5B1B}" ShortID="343417081">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exterior" ID="{ADCDFF4F-AF61-454C-A7BC-BF0045BF1416}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

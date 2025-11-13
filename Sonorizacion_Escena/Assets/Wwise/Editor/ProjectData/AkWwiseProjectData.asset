@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584385451545015962
+    m_lastTime: -8584385430182598126
     List:
     - name: Mute_cuevaMelodia
       guid: 577e0a07816032478ced2c0b30f25903
@@ -213,6 +213,23 @@ MonoBehaviour:
         guid: 6f764e0150ec3e479cadc6ab42cba764
       Path: Events\Default Work Unit\Play_Globo
       maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Nave
+      guid: 0fc4a0d16c315e4899d765d01d9c50ed
+      id: 507353506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Nave
+        ObjectType: 3
+        guid: 0fc4a0d16c315e4899d765d01d9c50ed
+      Path: Events\Default Work Unit\Play_Nave
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Picaportes
@@ -441,7 +458,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000301000004010000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000790000007a0000000301000004010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
