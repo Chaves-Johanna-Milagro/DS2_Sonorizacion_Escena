@@ -136,6 +136,122 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D32331EE-8D34-4881-8D25-F77E180B01F3}" ShortID="313358621">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuevaMelodia" ID="{2A0E2000-59F2-48F1-BC3C-9870198CDE3B}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_cuevaMelodia" ID="{732EC0BE-54CA-447D-958F-FA17BA977712}">
+					<ChildrenList>
+						<Action Name="" ID="{CF9B3057-3640-44E0-B4B7-CB5628C164CC}" ShortID="883649366">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuevaMelodia" ID="{2A0E2000-59F2-48F1-BC3C-9870198CDE3B}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{24196120-EF9F-4C53-8042-CCE0DB73AB88}" ShortID="485619625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-12"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="exteriorMelodia" ID="{DC0E9B07-9107-4863-9BDF-90B5A25EEA2C}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{45D9264C-AA29-4B57-8DF2-24F9A288A196}" ShortID="826840678">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-12"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="baseBajo" ID="{33F305DF-E359-4493-A580-3CFC20021980}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64B07C22-C149-435A-B866-3B7A43D8FD8A}" ShortID="618212506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-12"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ritmo" ID="{EAD818A8-4210-48BB-9EA5-3E6BB34AC85A}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_cuevaMelodia" ID="{070A7E57-6081-4732-8CED-2C0B30F25903}">
+					<ChildrenList>
+						<Action Name="" ID="{8675BD9B-F969-4A09-9D3C-0482CF7D8F4A}" ShortID="42482809">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cuevaMelodia" ID="{2A0E2000-59F2-48F1-BC3C-9870198CDE3B}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B2695BFF-84D6-4629-A835-9C06ECEA3C07}" ShortID="880187393">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="exteriorMelodia" ID="{DC0E9B07-9107-4863-9BDF-90B5A25EEA2C}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{72046657-DC73-4CDB-A894-A52EFA9AEA99}" ShortID="914028756">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="baseBajo" ID="{33F305DF-E359-4493-A580-3CFC20021980}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C5C2259-EBC4-41E3-8D2C-90F27B6CA533}" ShortID="258644309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ritmo" ID="{EAD818A8-4210-48BB-9EA5-3E6BB34AC85A}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

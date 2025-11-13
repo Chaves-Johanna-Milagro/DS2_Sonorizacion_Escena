@@ -23,7 +23,7 @@
 					<ChildrenList>
 						<MusicSegment Name="MX Exterior" ID="{EBC42970-73A3-456B-895C-F57465D1906A}" ShortID="86707204">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="110000"/>
+								<Property Name="EndPosition" Type="Real64" Value="140716.192203623"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -69,11 +69,71 @@
 																	<Local>
 																		<MusicClip Name="exteriorMelodia" ID="{DA11AA61-1866-449B-B7EA-673FF6781215}">
 																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="36000.0000000001"/>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="110000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="-24000.0000000001"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="exteriorMelodia" ID="{7AB5CC44-B0CF-488F-B91E-F1D227756FE3}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{78206896-08F0-42D3-8F24-B8FD269042A5}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>36</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{A43527EC-FABE-4405-9E38-E675E5A33B52}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>36</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{77E14CA9-93F0-41F8-95DE-45786E35D71C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>36</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -185,6 +245,117 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
+								<MusicTrack Name="cuevaMelodia" ID="{2A0E2000-59F2-48F1-BC3C-9870198CDE3B}" ShortID="122632614">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="cuevaMelodia" ID="{80FAA881-A215-4F0A-AA15-92E1ADAADD0B}">
+											<Language>SFX</Language>
+											<AudioFile>cuevaMelodia.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037520995"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E0ABE0D2-F663-4AEF-BB82-B335A5FA309C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{31966FC3-218C-40FC-9758-2BDB82348491}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="cuevaMelodia" ID="{36FCA477-0CA3-400D-8CE0-2F0D27D1E692}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="45973.2253953575"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="110000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="-27973.2253953575"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="cuevaMelodia" ID="{80FAA881-A215-4F0A-AA15-92E1ADAADD0B}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{787F57D0-E359-46E7-BF01-EEF00AAAD326}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>45.97323</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{A30506E7-FC00-4D23-88BB-6CDDFF6CA4F6}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>45.97323</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{B3978196-9C38-46ED-BA79-DDBF3F70E578}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>45.97323</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>110</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Cues">
@@ -198,7 +369,7 @@
 											<MusicCue Name="Exit Cue" ID="{2151F444-4FB1-4D5B-B29C-4A9A72021783}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="110000"/>
+													<Property Name="TimeMs" Type="Real64" Value="100000"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>

@@ -16,11 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3848958966">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2441411378">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3750094810" Name="Mute_cuevaMelodia" ObjectPath="\Events\Default Work Unit\Mute_cuevaMelodia" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="585776263" Name="Play_Alien" ObjectPath="\Events\Default Work Unit\Play_Alien" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.227" DurationMax="5.908021"/>
 				<Event Id="1245305155" Name="Play_AlienDialog" ObjectPath="\Events\Default Work Unit\Play_AlienDialog" MaxAttenuation="10." DurationType="OneShot" DurationMin="17.233875" DurationMax="17.233875"/>
 				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
@@ -33,6 +34,7 @@
 				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" MaxAttenuation="8." DurationType="OneShot" DurationMin="1.83675" DurationMax="2.276475"/>
 				<Event Id="645244742" Name="Play_Ventanas" ObjectPath="\Events\Default Work Unit\Play_Ventanas" DurationType="OneShot" DurationMin="0.165839" DurationMax="0.247123"/>
 				<Event Id="855891249" Name="Stop_AlienDialog" ObjectPath="\Events\Default Work Unit\Stop_AlienDialog" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1001247021" Name="UnMute_cuevaMelodia" ObjectPath="\Events\Default Work Unit\UnMute_cuevaMelodia" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="24858689" Language="SFX">
@@ -162,6 +164,10 @@
 				<File Id="1016174673" Language="SFX">
 					<ShortName>exteriorMelodia.wav</ShortName>
 					<Path>SFX\exteriorMelodia_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1037520995" Language="SFX">
+					<ShortName>cuevaMelodia.wav</ShortName>
+					<Path>SFX\cuevaMelodia_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1046507575" Language="SFX">
 					<ShortName>baseBajo.wav</ShortName>

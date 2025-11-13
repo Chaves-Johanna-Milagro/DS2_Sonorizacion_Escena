@@ -4,11 +4,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	585776263	Play_Alien			\Default Work Unit\Play_Alien	
 	645244742	Play_Ventanas			\Default Work Unit\Play_Ventanas	
 	855891249	Stop_AlienDialog			\Default Work Unit\Stop_AlienDialog	
+	1001247021	UnMute_cuevaMelodia			\Default Work Unit\UnMute_cuevaMelodia	
 	1245305155	Play_AlienDialog			\Default Work Unit\Play_AlienDialog	
 	2639633249	Play_TachosNormales			\Default Work Unit\Play_TachosNormales	
 	2890489828	Play_Exterior			\Default Work Unit\Play_Exterior	
 	3093474282	Play_Picaportes			\Default Work Unit\Play_Picaportes	
 	3174868516	Play_TapsPantallas			\Default Work Unit\Play_TapsPantallas	
+	3750094810	Mute_cuevaMelodia			\Default Work Unit\Mute_cuevaMelodia	
 	3915865825	Play_Computadora			\Default Work Unit\Play_Computadora	
 	4069076147	Play_Globo			\Default Work Unit\Play_Globo	
 
@@ -45,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	948421974	taps4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\taps4_A46D73D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\TapsPantallas\taps4		403184
 	960778959	lata_peligro1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro1_E378C95B.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro1		223276
 	1016174673	exteriorMelodia	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\exteriorMelodia_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Exterior\MX Exterior\exteriorMelodia		21120064
+	1037520995	cuevaMelodia	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\cuevaMelodia_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Exterior\MX Exterior\cuevaMelodia		21120064
 	1046507575	baseBajo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\baseBajo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Exterior\MX Exterior\baseBajo		21120064
 	1059020161	picaporte2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte2_35988773.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte2		360516
 

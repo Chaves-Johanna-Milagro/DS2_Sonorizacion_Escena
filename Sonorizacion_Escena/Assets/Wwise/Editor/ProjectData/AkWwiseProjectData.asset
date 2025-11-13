@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584385505446212139
+    m_lastTime: -8584385451545015962
     List:
+    - name: Mute_cuevaMelodia
+      guid: 577e0a07816032478ced2c0b30f25903
+      id: 3750094810
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Mute_cuevaMelodia
+        ObjectType: 3
+        guid: 577e0a07816032478ced2c0b30f25903
+      Path: Events\Default Work Unit\Mute_cuevaMelodia
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Alien
       guid: 2b96eff71065304f953a67040b5d75e0
       id: 585776263
@@ -300,6 +317,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: UnMute_cuevaMelodia
+      guid: bec02e73ca547d44958ffa17ba977712
+      id: 1001247021
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: UnMute_cuevaMelodia
+        ObjectType: 3
+        guid: bec02e73ca547d44958ffa17ba977712
+      Path: Events\Default Work Unit\UnMute_cuevaMelodia
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -407,7 +441,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000301000004010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MUTE_CUEVAMELODIA = 3750094810U;
         static const AkUniqueID PLAY_ALIEN = 585776263U;
         static const AkUniqueID PLAY_ALIENDIALOG = 1245305155U;
         static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
@@ -25,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_TAPSPANTALLAS = 3174868516U;
         static const AkUniqueID PLAY_VENTANAS = 645244742U;
         static const AkUniqueID STOP_ALIENDIALOG = 855891249U;
+        static const AkUniqueID UNMUTE_CUEVAMELODIA = 1001247021U;
     } // namespace EVENTS
 
     namespace SWITCHES
