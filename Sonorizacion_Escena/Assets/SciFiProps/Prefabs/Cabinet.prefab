@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 33876195731728132}
   - component: {fileID: 23053479950776814}
   - component: {fileID: 65495337165069996}
-  - component: {fileID: 1929744216149404398}
-  - component: {fileID: 5899459645447805307}
   m_Layer: 0
   m_Name: CabinetDoorL
   m_TagString: Untagged
@@ -100,57 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5961056, y: 1.7549536, z: 0.123423696}
   m_Center: {x: 0.40007877, y: 1.005047, z: -0.06171149}
---- !u!114 &1929744216149404398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372496970572798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab298c900c05af4988952b4df6dcd25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 1
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!114 &5899459645447805307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372496970572798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50ce8f8d4970fc44a34fea106a9639b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 9864aaa1
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e44ed391fee5a9f4cabb5043936a24ea, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &1481343056491324
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,8 +210,6 @@ GameObject:
   - component: {fileID: 33755007444367362}
   - component: {fileID: 23743251069383914}
   - component: {fileID: 65070400609889826}
-  - component: {fileID: 5902456736718670248}
-  - component: {fileID: 1114200425092599606}
   m_Layer: 0
   m_Name: CabinetDoorR
   m_TagString: Untagged
@@ -351,57 +296,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.59001637, y: 1.7745707, z: 0.123423696}
   m_Center: {x: -0.38659716, y: 1.0097803, z: -0.06171149}
---- !u!114 &5902456736718670248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912358930782112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab298c900c05af4988952b4df6dcd25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 1
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!114 &1114200425092599606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912358930782112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50ce8f8d4970fc44a34fea106a9639b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 9864aaa1
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e44ed391fee5a9f4cabb5043936a24ea, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &7286178913189900659
 GameObject:
   m_ObjectHideFlags: 0

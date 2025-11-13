@@ -3,15 +3,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	507353506	Play_Nave			\Default Work Unit\Play_Nave	
 	578466671	Play_Ambiente2			\Default Work Unit\Play_Ambiente2	
 	585776263	Play_Alien			\Default Work Unit\Play_Alien	
-	645244742	Play_Ventanas			\Default Work Unit\Play_Ventanas	
 	855891249	Stop_AlienDialog			\Default Work Unit\Stop_AlienDialog	
 	1001247021	UnMute_cuevaMelodia			\Default Work Unit\UnMute_cuevaMelodia	
 	1245305155	Play_AlienDialog			\Default Work Unit\Play_AlienDialog	
+	1252916818	Play_Lampara			\Default Work Unit\Play_Lampara	
 	2639633249	Play_TachosNormales			\Default Work Unit\Play_TachosNormales	
 	2890489828	Play_Exterior			\Default Work Unit\Play_Exterior	
 	3093474282	Play_Picaportes			\Default Work Unit\Play_Picaportes	
 	3174868516	Play_TapsPantallas			\Default Work Unit\Play_TapsPantallas	
 	3750094810	Mute_cuevaMelodia			\Default Work Unit\Mute_cuevaMelodia	
+	3859428728	Play_Cristal			\Default Work Unit\Play_Cristal	
 	3915865825	Play_Computadora			\Default Work Unit\Play_Computadora	
 	4069076147	Play_Globo			\Default Work Unit\Play_Globo	
 
@@ -22,6 +23,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	174578103	alien3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien3		428400
 	203139364	naveMelodia2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\naveMelodia2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nave\MX Nave\naveMelodia2		23040064
 	214259862	alien6	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien6		524776
+	214956824	Lampara	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lampara_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lampara		3456064
 	262611582	ritmo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ritmo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Exterior\MX Exterior\ritmo		21120064
 	293429537	lata_peligro2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro2_3AF66DD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro2		222248
 	304667064	alien4	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien4		942404
@@ -31,9 +33,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	376157099	golpes_latas3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas3_9B4EB80D.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas3		219372
 	381798563	golpes_latas5	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas5_56A29A50.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas5		192876
 	434677017	AlienDialog	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AlienDialog		3308968
-	435195137	ventana1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana1_E6B6E0E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana1		31908
 	518096694	picaporte1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\picaporte1_D4FC190B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picaportes\picaporte1		297404
-	533089421	ventana2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana2_27EF00A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana2		40020
+	555281020	Cristal	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\cristal_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cristal		3456064
 	563871138	alien2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien2		674696
 	596419025	alien8	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien8		235648
 	644077055	naveBajo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\naveBajo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Nave\MX Nave\naveBajo		21120064
@@ -42,7 +43,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	744739784	lata_peligro3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\lata_peligro3_3D28C74B.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosPeligrosos\lata_peligro3		244204
 	785584677	alien5	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien5		631860
 	804565411	alien7	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\alien7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Alien\alien7		781780
-	813682556	ventana3	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\ventana3_4EC22987.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ventanas\ventana3		47512
 	814756210	Globo	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\globo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Globo		2208064
 	867926429	Ambiente2	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\Ambiente2_5F57CA48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente2		1632128
 	902654082	golpes_latas1	C:\Users\jjoha\Documents\GitHub\DS2_Sonorizacion_Escena\Sonorizacion_Escena\Sonorizacion_Escena_WwiseProject\.cache\Mac\SFX\golpes_latas1_836C96FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\TachosNormales\golpes_latas1		149996

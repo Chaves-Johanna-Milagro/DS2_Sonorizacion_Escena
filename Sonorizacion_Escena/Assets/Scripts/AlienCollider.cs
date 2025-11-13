@@ -9,7 +9,7 @@ public class AlienCollider : MonoBehaviour
 
     private AlienClick _alien;
 
-    private float _delayTime = 17f;
+    private float _delayTime = 16f;
     void Start()
     {
         _col = GetComponent<Collider>();

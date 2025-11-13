@@ -176,7 +176,7 @@
 						</Action>
 						<Action Name="" ID="{24196120-EF9F-4C53-8042-CCE0DB73AB88}" ShortID="485619625">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="ActionType" Type="int16" Value="4"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64" Value="-12"/>
@@ -192,7 +192,7 @@
 								<Property Name="ActionType" Type="int16" Value="12"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-12"/>
+								<Property Name="Volume" Type="Real64" Value="-5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -205,7 +205,7 @@
 								<Property Name="ActionType" Type="int16" Value="12"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-12"/>
+								<Property Name="Volume" Type="Real64" Value="-5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -230,7 +230,7 @@
 						</Action>
 						<Action Name="" ID="{B2695BFF-84D6-4629-A835-9C06ECEA3C07}" ShortID="880187393">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="16"/>
+								<Property Name="ActionType" Type="int16" Value="5"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
@@ -284,6 +284,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Exterior" ID="{ADCDFF4F-AF61-454C-A7BC-BF0045BF1416}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cristal" ID="{FD3B87E4-67CF-4519-99A0-5351A6701D8F}">
+					<ChildrenList>
+						<Action Name="" ID="{DBAB49BE-B220-49CB-88BE-BF083EEB751A}" ShortID="812703579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cristal" ID="{683B252B-520D-4499-8FA0-769F67964EF4}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lampara" ID="{E584B134-7E99-43CA-BD7D-FA7803EDBB2E}">
+					<ChildrenList>
+						<Action Name="" ID="{7B3E77E3-D887-4900-8D32-9BB2C46B5091}" ShortID="246393653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lampara" ID="{FA0E5350-D77F-4662-B796-71021CC03258}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

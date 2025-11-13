@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1596312194">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2346506646">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -26,14 +26,15 @@
 				<Event Id="1245305155" Name="Play_AlienDialog" ObjectPath="\Events\Default Work Unit\Play_AlienDialog" MaxAttenuation="10." DurationType="OneShot" DurationMin="17.233875" DurationMax="17.233875"/>
 				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
 				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="3859428728" Name="Play_Cristal" ObjectPath="\Events\Default Work Unit\Play_Cristal" MaxAttenuation="5." DurationType="Infinite"/>
 				<Event Id="2890489828" Name="Play_Exterior" ObjectPath="\Events\Default Work Unit\Play_Exterior" DurationType="Infinite"/>
 				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="1252916818" Name="Play_Lampara" ObjectPath="\Events\Default Work Unit\Play_Lampara" MaxAttenuation="6." DurationType="Infinite"/>
 				<Event Id="507353506" Name="Play_Nave" ObjectPath="\Events\Default Work Unit\Play_Nave" DurationType="Infinite"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.548638" DurationMax="1.877358"/>
 				<Event Id="2639633249" Name="Play_TachosNormales" ObjectPath="\Events\Default Work Unit\Play_TachosNormales" MaxAttenuation="12." DurationType="OneShot" DurationMin="0.7809" DurationMax="1.142211"/>
 				<Event Id="116977947" Name="Play_TachosPeligrosos" ObjectPath="\Events\Default Work Unit\Play_TachosPeligrosos" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.157203" DurationMax="1.27157"/>
 				<Event Id="3174868516" Name="Play_TapsPantallas" ObjectPath="\Events\Default Work Unit\Play_TapsPantallas" MaxAttenuation="8." DurationType="OneShot" DurationMin="1.83675" DurationMax="2.276475"/>
-				<Event Id="645244742" Name="Play_Ventanas" ObjectPath="\Events\Default Work Unit\Play_Ventanas" DurationType="OneShot" DurationMin="0.165839" DurationMax="0.247123"/>
 				<Event Id="855891249" Name="Stop_AlienDialog" ObjectPath="\Events\Default Work Unit\Stop_AlienDialog" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1001247021" Name="UnMute_cuevaMelodia" ObjectPath="\Events\Default Work Unit\UnMute_cuevaMelodia" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
@@ -61,6 +62,10 @@
 				<File Id="214259862" Language="SFX">
 					<ShortName>alien6.wav</ShortName>
 					<Path>SFX\alien6_10C4C929.wem</Path>
+				</File>
+				<File Id="214956824" Language="SFX">
+					<ShortName>lampara.wav</ShortName>
+					<Path>SFX\lampara_D79FB2B7.wem</Path>
 				</File>
 				<File Id="262611582" Language="SFX">
 					<ShortName>ritmo.wav</ShortName>
@@ -98,17 +103,13 @@
 					<ShortName>alien1.wav</ShortName>
 					<Path>SFX\alien1_10C4C929.wem</Path>
 				</File>
-				<File Id="435195137" Language="SFX">
-					<ShortName>ventana1.wav</ShortName>
-					<Path>SFX\ventana1_E6B6E0E7.wem</Path>
-				</File>
 				<File Id="518096694" Language="SFX">
 					<ShortName>picaporte1.wav</ShortName>
 					<Path>SFX\picaporte1_D4FC190B.wem</Path>
 				</File>
-				<File Id="533089421" Language="SFX">
-					<ShortName>ventana2.wav</ShortName>
-					<Path>SFX\ventana2_27EF00A7.wem</Path>
+				<File Id="555281020" Language="SFX">
+					<ShortName>cristal.wav</ShortName>
+					<Path>SFX\cristal_D79FB2B7.wem</Path>
 				</File>
 				<File Id="563871138" Language="SFX">
 					<ShortName>alien2.wav</ShortName>
@@ -141,10 +142,6 @@
 				<File Id="804565411" Language="SFX">
 					<ShortName>alien7.wav</ShortName>
 					<Path>SFX\alien7_10C4C929.wem</Path>
-				</File>
-				<File Id="813682556" Language="SFX">
-					<ShortName>ventana3.wav</ShortName>
-					<Path>SFX\ventana3_4EC22987.wem</Path>
 				</File>
 				<File Id="814756210" Language="SFX">
 					<ShortName>globo.wav</ShortName>

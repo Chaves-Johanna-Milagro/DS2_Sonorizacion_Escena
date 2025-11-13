@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584385430182598126
+    m_lastTime: -8584385374095705756
     List:
     - name: Mute_cuevaMelodia
       guid: 577e0a07816032478ced2c0b30f25903
@@ -181,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_Cristal
+      guid: e4873bfdcf67194599a05351a6701d8f
+      id: 3859428728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Cristal
+        ObjectType: 3
+        guid: e4873bfdcf67194599a05351a6701d8f
+      Path: Events\Default Work Unit\Play_Cristal
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Exterior
       guid: 301006d2feb7794f910a9d2852441133
       id: 2890489828
@@ -213,6 +230,23 @@ MonoBehaviour:
         guid: 6f764e0150ec3e479cadc6ab42cba764
       Path: Events\Default Work Unit\Play_Globo
       maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Lampara
+      guid: 34b184e5997eca43bd7dfa7803edbb2e
+      id: 1252916818
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Lampara
+        ObjectType: 3
+        guid: 34b184e5997eca43bd7dfa7803edbb2e
+      Path: Events\Default Work Unit\Play_Lampara
+      maxAttenuation: 6
       maxDuration: -1
       minDuration: -1
     - name: Play_Nave
@@ -315,8 +349,8 @@ MonoBehaviour:
         guid: 75d1765ce41cd14a8fc20239d280d6fa
       Path: Events\Default Work Unit\Play_Ventanas
       maxAttenuation: 0
-      maxDuration: 0.247123
-      minDuration: 0.165839
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_AlienDialog
       guid: 0f1362288304ea458dccf6dc00e14ebe
       id: 855891249
@@ -458,7 +492,7 @@ MonoBehaviour:
     m_lastTime: -8584406728060015598
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000790000007a0000000301000004010000
+  ExpandedWaapiItemIds: 010000000500000006000000070000003100000032000000790000007a0000000301000004010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
