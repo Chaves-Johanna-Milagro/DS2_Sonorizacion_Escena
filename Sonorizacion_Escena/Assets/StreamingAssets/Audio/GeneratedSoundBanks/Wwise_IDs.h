@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_ALIENDIALOG = 1245305155U;
         static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
         static const AkUniqueID PLAY_COMPUTADORA = 3915865825U;
+        static const AkUniqueID PLAY_EXTERIOR = 2890489828U;
         static const AkUniqueID PLAY_GLOBO = 4069076147U;
         static const AkUniqueID PLAY_PICAPORTES = 3093474282U;
         static const AkUniqueID PLAY_TACHOSNORMALES = 2639633249U;

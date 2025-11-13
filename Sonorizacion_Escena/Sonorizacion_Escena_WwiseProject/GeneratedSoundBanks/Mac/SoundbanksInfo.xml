@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3979893201">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3848958966">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,6 +25,7 @@
 				<Event Id="1245305155" Name="Play_AlienDialog" ObjectPath="\Events\Default Work Unit\Play_AlienDialog" MaxAttenuation="10." DurationType="OneShot" DurationMin="17.233875" DurationMax="17.233875"/>
 				<Event Id="578466671" Name="Play_Ambiente2" ObjectPath="\Events\Default Work Unit\Play_Ambiente2" DurationType="Infinite"/>
 				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="2890489828" Name="Play_Exterior" ObjectPath="\Events\Default Work Unit\Play_Exterior" DurationType="Infinite"/>
 				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="10." DurationType="Infinite"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.548638" DurationMax="1.877358"/>
 				<Event Id="2639633249" Name="Play_TachosNormales" ObjectPath="\Events\Default Work Unit\Play_TachosNormales" MaxAttenuation="12." DurationType="OneShot" DurationMin="0.7809" DurationMax="1.142211"/>
@@ -36,15 +37,15 @@
 			<IncludedMemoryFiles>
 				<File Id="24858689" Language="SFX">
 					<ShortName>taps5.wav</ShortName>
-					<Path>SFX\taps5_21F7C55D.wem</Path>
+					<Path>SFX\taps5_FB1650A7.wem</Path>
 				</File>
 				<File Id="113655967" Language="SFX">
 					<ShortName>taps2.wav</ShortName>
-					<Path>SFX\taps2_36D8913C.wem</Path>
+					<Path>SFX\taps2_9629AF37.wem</Path>
 				</File>
 				<File Id="172883275" Language="SFX">
 					<ShortName>taps1.wav</ShortName>
-					<Path>SFX\taps1_67C24541.wem</Path>
+					<Path>SFX\taps1_36B249F6.wem</Path>
 				</File>
 				<File Id="174578103" Language="SFX">
 					<ShortName>alien3.wav</ShortName>
@@ -54,9 +55,13 @@
 					<ShortName>alien6.wav</ShortName>
 					<Path>SFX\alien6_10C4C929.wem</Path>
 				</File>
+				<File Id="262611582" Language="SFX">
+					<ShortName>ritmo.wav</ShortName>
+					<Path>SFX\ritmo_D79FB2B7.wem</Path>
+				</File>
 				<File Id="293429537" Language="SFX">
 					<ShortName>lata_peligro2.wav</ShortName>
-					<Path>SFX\lata_peligro2_6117323C.wem</Path>
+					<Path>SFX\lata_peligro2_3AF66DD4.wem</Path>
 				</File>
 				<File Id="304667064" Language="SFX">
 					<ShortName>alien4.wav</ShortName>
@@ -68,19 +73,19 @@
 				</File>
 				<File Id="354737974" Language="SFX">
 					<ShortName>golpes_latas4.wav</ShortName>
-					<Path>SFX\golpes_latas4_D395D480.wem</Path>
+					<Path>SFX\golpes_latas4_840AC3A8.wem</Path>
 				</File>
 				<File Id="362068587" Language="SFX">
 					<ShortName>picaporte4.wav</ShortName>
-					<Path>SFX\picaporte4_7214572A.wem</Path>
+					<Path>SFX\picaporte4_DAB11ADC.wem</Path>
 				</File>
 				<File Id="376157099" Language="SFX">
 					<ShortName>golpes_latas3.wav</ShortName>
-					<Path>SFX\golpes_latas3_83037C35.wem</Path>
+					<Path>SFX\golpes_latas3_9B4EB80D.wem</Path>
 				</File>
 				<File Id="381798563" Language="SFX">
 					<ShortName>golpes_latas5.wav</ShortName>
-					<Path>SFX\golpes_latas5_3F8A122D.wem</Path>
+					<Path>SFX\golpes_latas5_56A29A50.wem</Path>
 				</File>
 				<File Id="434677017" Language="SFX">
 					<ShortName>alien1.wav</ShortName>
@@ -92,7 +97,7 @@
 				</File>
 				<File Id="518096694" Language="SFX">
 					<ShortName>picaporte1.wav</ShortName>
-					<Path>SFX\picaporte1_DDB2CA2D.wem</Path>
+					<Path>SFX\picaporte1_D4FC190B.wem</Path>
 				</File>
 				<File Id="533089421" Language="SFX">
 					<ShortName>ventana2.wav</ShortName>
@@ -108,7 +113,7 @@
 				</File>
 				<File Id="693567509" Language="SFX">
 					<ShortName>golpes_latas2.wav</ShortName>
-					<Path>SFX\golpes_latas2_8E29DF37.wem</Path>
+					<Path>SFX\golpes_latas2_46A507CD.wem</Path>
 				</File>
 				<File Id="708347851" Language="SFX">
 					<ShortName>computadora.wav</ShortName>
@@ -116,7 +121,7 @@
 				</File>
 				<File Id="744739784" Language="SFX">
 					<ShortName>lata_peligro3.wav</ShortName>
-					<Path>SFX\lata_peligro3_8EBEE67A.wem</Path>
+					<Path>SFX\lata_peligro3_3D28C74B.wem</Path>
 				</File>
 				<File Id="785584677" Language="SFX">
 					<ShortName>alien5.wav</ShortName>
@@ -140,23 +145,31 @@
 				</File>
 				<File Id="902654082" Language="SFX">
 					<ShortName>golpes_latas1.wav</ShortName>
-					<Path>SFX\golpes_latas1_8AA6E125.wem</Path>
+					<Path>SFX\golpes_latas1_836C96FD.wem</Path>
 				</File>
 				<File Id="928788019" Language="SFX">
 					<ShortName>picaporte3.wav</ShortName>
-					<Path>SFX\picaporte3_CDCA2A89.wem</Path>
+					<Path>SFX\picaporte3_E747A0B5.wem</Path>
 				</File>
 				<File Id="948421974" Language="SFX">
 					<ShortName>taps4.wav</ShortName>
-					<Path>SFX\taps4_4AD66D25.wem</Path>
+					<Path>SFX\taps4_A46D73D4.wem</Path>
 				</File>
 				<File Id="960778959" Language="SFX">
 					<ShortName>lata_peligro1.wav</ShortName>
-					<Path>SFX\lata_peligro1_DA8B161A.wem</Path>
+					<Path>SFX\lata_peligro1_E378C95B.wem</Path>
+				</File>
+				<File Id="1016174673" Language="SFX">
+					<ShortName>exteriorMelodia.wav</ShortName>
+					<Path>SFX\exteriorMelodia_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1046507575" Language="SFX">
+					<ShortName>baseBajo.wav</ShortName>
+					<Path>SFX\baseBajo_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1059020161" Language="SFX">
 					<ShortName>picaporte2.wav</ShortName>
-					<Path>SFX\picaporte2_A8A8F47F.wem</Path>
+					<Path>SFX\picaporte2_35988773.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

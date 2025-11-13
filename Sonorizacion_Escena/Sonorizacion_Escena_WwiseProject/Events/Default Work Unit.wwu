@@ -127,6 +127,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Exterior" ID="{D2061030-B7FE-4F79-910A-9D2852441133}">
+					<ChildrenList>
+						<Action Name="" ID="{441E4548-70F7-4ED4-B9A7-F08D426D35DB}" ShortID="975213805">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exterior" ID="{ADCDFF4F-AF61-454C-A7BC-BF0045BF1416}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
