@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1054286947">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3754889907">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,7 +25,7 @@
 				<Event Id="585776263" Name="Play_Alien" ObjectPath="\Events\Default Work Unit\Play_Alien" MaxAttenuation="10." DurationType="OneShot" DurationMin="0.929545" DurationMax="4.663057"/>
 				<Event Id="1245305155" Name="Play_AlienDialog" ObjectPath="\Events\Default Work Unit\Play_AlienDialog" MaxAttenuation="10." DurationType="OneShot" DurationMin="17.233875" DurationMax="17.233875"/>
 				<Event Id="94063951" Name="Play_Ambiente" ObjectPath="\Events\Default Work Unit\Play_Ambiente" DurationType="Infinite"/>
-				<Event Id="3133222561" Name="Play_Caja" ObjectPath="\Events\Default Work Unit\Play_Caja" DurationType="Infinite"/>
+				<Event Id="3133222561" Name="Play_Caja" ObjectPath="\Events\Default Work Unit\Play_Caja" MaxAttenuation="5." DurationType="Infinite"/>
 				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
 				<Event Id="3859428728" Name="Play_Cristal" ObjectPath="\Events\Default Work Unit\Play_Cristal" MaxAttenuation="5." DurationType="Infinite"/>
 				<Event Id="2890489828" Name="Play_Exterior" ObjectPath="\Events\Default Work Unit\Play_Exterior" DurationType="Infinite"/>
@@ -42,7 +42,7 @@
 			<IncludedMemoryFiles>
 				<File Id="20116794" Language="SFX">
 					<ShortName>ambient-pads-loop-296968.wav</ShortName>
-					<Path>SFX\ambient-pads-loop-296968_0BCE9672.wem</Path>
+					<Path>SFX\ambient-pads-loop-296968_549389E1.wem</Path>
 				</File>
 				<File Id="24858689" Language="SFX">
 					<ShortName>taps5.wav</ShortName>
@@ -58,7 +58,7 @@
 				</File>
 				<File Id="174578103" Language="SFX">
 					<ShortName>alien3.wav</ShortName>
-					<Path>SFX\alien3_904B2C76.wem</Path>
+					<Path>SFX\alien3_36E1853E.wem</Path>
 				</File>
 				<File Id="203139364" Language="SFX">
 					<ShortName>naveMelodia2.wav</ShortName>
@@ -66,7 +66,7 @@
 				</File>
 				<File Id="214259862" Language="SFX">
 					<ShortName>alien6.wav</ShortName>
-					<Path>SFX\alien6_A376C93D.wem</Path>
+					<Path>SFX\alien6_BFA61C31.wem</Path>
 				</File>
 				<File Id="214956824" Language="SFX">
 					<ShortName>lampara.wav</ShortName>
@@ -82,7 +82,7 @@
 				</File>
 				<File Id="304667064" Language="SFX">
 					<ShortName>alien4.wav</ShortName>
-					<Path>SFX\alien4_29A9B4C2.wem</Path>
+					<Path>SFX\alien4_AF1E4C2E.wem</Path>
 				</File>
 				<File Id="343494719" Language="SFX">
 					<ShortName>taps3.wav</ShortName>
@@ -118,11 +118,11 @@
 				</File>
 				<File Id="563871138" Language="SFX">
 					<ShortName>alien2.wav</ShortName>
-					<Path>SFX\alien2_DA6996EE.wem</Path>
+					<Path>SFX\alien2_8E9997F6.wem</Path>
 				</File>
 				<File Id="596419025" Language="SFX">
 					<ShortName>alien8.wav</ShortName>
-					<Path>SFX\alien8_406D4FBD.wem</Path>
+					<Path>SFX\alien8_5F10F94A.wem</Path>
 				</File>
 				<File Id="644077055" Language="SFX">
 					<ShortName>naveBajo.wav</ShortName>
@@ -142,11 +142,11 @@
 				</File>
 				<File Id="785584677" Language="SFX">
 					<ShortName>alien5.wav</ShortName>
-					<Path>SFX\alien5_2DA705CF.wem</Path>
+					<Path>SFX\alien5_8799BC24.wem</Path>
 				</File>
 				<File Id="804565411" Language="SFX">
 					<ShortName>alien7.wav</ShortName>
-					<Path>SFX\alien7_DC8649A2.wem</Path>
+					<Path>SFX\alien7_36FA7551.wem</Path>
 				</File>
 				<File Id="814756210" Language="SFX">
 					<ShortName>globo.wav</ShortName>
@@ -174,7 +174,7 @@
 				</File>
 				<File Id="1014097033" Language="SFX">
 					<ShortName>caja 1 (1).wav</ShortName>
-					<Path>SFX\caja 1 (1)_41737875.wem</Path>
+					<Path>SFX\caja 1 (1)_3BB9EED7.wem</Path>
 				</File>
 				<File Id="1016174673" Language="SFX">
 					<ShortName>exteriorMelodia.wav</ShortName>

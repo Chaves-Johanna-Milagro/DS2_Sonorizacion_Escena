@@ -178,7 +178,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cbf41cc6b3fe1247be9cefbe80e68fa8
       Path: Events\Default Work Unit\Play_Caja
-      maxAttenuation: 0
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_Computadora

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b0764eefab1f049bb0328ba3b0dd31, type: 3}
+  m_Name: C61CF4CB-FEB3-4712-BE9C-EFBE80E68FA8
+  m_EditorClassIdentifier: 
+  objectName: Play_Caja
+  id: 3133222561
+  guid: C61CF4CB-FEB3-4712-BE9C-EFBE80E68FA8
