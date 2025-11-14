@@ -159,6 +159,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{999DA54D-F5F2-45E2-BFE2-5A2B5547CB1D}" ShortID="332899057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Globo" ID="{E25B8E5A-53B3-44F5-A197-EC7987A41B15}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="UnMute_cuevaMelodia" ID="{732EC0BE-54CA-447D-958F-FA17BA977712}">
@@ -284,6 +296,18 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Exterior" ID="{ADCDFF4F-AF61-454C-A7BC-BF0045BF1416}" WorkUnitID="{1FE519A1-E7D5-48B9-9D19-D55A6F8F61B0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{549029EE-2693-4A7C-964D-324FF975C173}" ShortID="179591043">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Globo" ID="{E25B8E5A-53B3-44F5-A197-EC7987A41B15}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

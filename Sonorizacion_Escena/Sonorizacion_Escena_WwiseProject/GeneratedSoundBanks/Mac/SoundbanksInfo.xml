@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2346506646">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2823878364">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -28,7 +28,7 @@
 				<Event Id="3915865825" Name="Play_Computadora" ObjectPath="\Events\Default Work Unit\Play_Computadora" MaxAttenuation="10." DurationType="Infinite"/>
 				<Event Id="3859428728" Name="Play_Cristal" ObjectPath="\Events\Default Work Unit\Play_Cristal" MaxAttenuation="5." DurationType="Infinite"/>
 				<Event Id="2890489828" Name="Play_Exterior" ObjectPath="\Events\Default Work Unit\Play_Exterior" DurationType="Infinite"/>
-				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="10." DurationType="Infinite"/>
+				<Event Id="4069076147" Name="Play_Globo" ObjectPath="\Events\Default Work Unit\Play_Globo" MaxAttenuation="6." DurationType="Infinite"/>
 				<Event Id="1252916818" Name="Play_Lampara" ObjectPath="\Events\Default Work Unit\Play_Lampara" MaxAttenuation="6." DurationType="Infinite"/>
 				<Event Id="507353506" Name="Play_Nave" ObjectPath="\Events\Default Work Unit\Play_Nave" DurationType="Infinite"/>
 				<Event Id="3093474282" Name="Play_Picaportes" ObjectPath="\Events\Default Work Unit\Play_Picaportes" MaxAttenuation="12." DurationType="OneShot" DurationMin="1.548638" DurationMax="1.877358"/>

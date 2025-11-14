@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584385374095705756
+    m_lastTime: -8584385304048994042
     List:
     - name: Mute_cuevaMelodia
       guid: 577e0a07816032478ced2c0b30f25903
@@ -229,7 +229,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6f764e0150ec3e479cadc6ab42cba764
       Path: Events\Default Work Unit\Play_Globo
-      maxAttenuation: 10
+      maxAttenuation: 6
       maxDuration: -1
       minDuration: -1
     - name: Play_Lampara

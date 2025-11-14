@@ -19,7 +19,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -508,7 +508,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1033,7 +1033,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1274,7 +1274,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-16</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1283,7 +1283,7 @@
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{80EB3E17-5385-425E-B15C-1D8EBD46E621}" ShortID="428449266">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+										<Property Name="RadiusMax" Type="Real64" Value="6"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -1300,7 +1300,7 @@
 															<SegmentShape>Log2</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>10</XPos>
+															<XPos>6</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
