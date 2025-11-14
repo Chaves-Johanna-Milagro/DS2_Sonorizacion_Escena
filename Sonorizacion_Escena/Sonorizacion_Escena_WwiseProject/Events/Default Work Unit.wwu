@@ -3,18 +3,11 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6CFBAD94-9383-4DC1-A110-EAD6BCF1D490}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Ambiente2" ID="{670F1A11-C61E-48EC-AE78-39DC04ADDA6B}">
-					<ChildrenList>
-						<Action Name="" ID="{AFC25630-5062-447C-8F7C-F8C16FDAFB1A}" ShortID="48607073">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambiente2" ID="{2B23888A-63D9-4750-B8DC-8D50D84D4F74}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_TapsPantallas" ID="{07326B29-F34B-4A64-80AE-AD12CBC8D5A5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D8E09487-732D-45ED-8AD6-6D74369D3A9A}" ShortID="1067260273">
 							<ReferenceList>
@@ -26,6 +19,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Picaportes" ID="{CFA11B48-2A8E-4CE2-866E-FD7E62C3E290}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{279CFE14-94B6-47A3-B84C-E679267CE742}" ShortID="591233611">
 							<ReferenceList>
@@ -36,18 +33,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ventanas" ID="{5C76D175-1CE4-4AD1-8FC2-0239D280D6FA}">
-					<ChildrenList>
-						<Action Name="" ID="{8F696930-EA67-415B-9B11-86648BFFD31B}" ShortID="543979373">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ventanas" ID="{F5058A8B-C0CA-4105-8C23-A004073438DD}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_AlienDialog" ID="{06DF3A9C-3F90-4530-93C8-BB07B71DD274}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C963C624-CBC1-48A9-A222-DB8CB968DBAE}" ShortID="914195916">
 							<ReferenceList>
@@ -59,6 +49,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Alien" ID="{F7EF962B-6510-4F30-953A-67040B5D75E0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{A018CC08-D3CB-4730-AFBE-0611708B16A6}" ShortID="579061730">
 							<ReferenceList>
@@ -69,21 +63,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_AlienDialog" ID="{2862130F-0483-45EA-8DCC-F6DC00E14EBE}">
-					<ChildrenList>
-						<Action Name="" ID="{D2DDBF20-CC79-4CDC-8097-6DF086ADBB4F}" ShortID="383943360">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AlienDialog" ID="{84615FC9-31D5-4368-985F-D378769E3DDC}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_TachosNormales" ID="{14C098D9-2FC2-4C7E-9F05-B751CEDA2E65}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C8D8B3F8-C418-4C75-9E1E-5BD7C9D702B9}" ShortID="103971143">
 							<ReferenceList>
@@ -95,6 +79,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Computadora" ID="{D5097855-BA3E-436D-A1BD-27134EDC729D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{569852F6-964D-41A4-8874-030849108872}" ShortID="491826342">
 							<ReferenceList>
@@ -106,6 +94,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Globo" ID="{014E766F-EC50-473E-9CAD-C6AB42CBA764}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D281C50D-62A8-40C3-914C-1EE49F2F33EF}" ShortID="506618727">
 							<ReferenceList>
@@ -117,6 +109,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_TachosPeligrosos" ID="{44CBFA3F-72FA-4EF1-AF5E-7218ECCC74CB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{FBEF5489-9724-49AA-8E12-B327B8392AA0}" ShortID="772348019">
 							<ReferenceList>
@@ -128,6 +124,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Exterior" ID="{D2061030-B7FE-4F79-910A-9D2852441133}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{441E4548-70F7-4ED4-B9A7-F08D426D35DB}" ShortID="975213805">
 							<ReferenceList>
@@ -174,6 +174,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="UnMute_cuevaMelodia" ID="{732EC0BE-54CA-447D-958F-FA17BA977712}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{CF9B3057-3640-44E0-B4B7-CB5628C164CC}" ShortID="883649366">
 							<PropertyList>
@@ -228,6 +232,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Mute_cuevaMelodia" ID="{070A7E57-6081-4732-8CED-2C0B30F25903}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8675BD9B-F969-4A09-9D3C-0482CF7D8F4A}" ShortID="42482809">
 							<PropertyList>
@@ -279,6 +287,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Nave" ID="{D1A0C40F-316C-485E-99D7-65D01D9C50ED}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C3F482AF-BC98-496C-8F15-7E286FAE7488}" ShortID="619830719">
 							<ReferenceList>
@@ -314,6 +326,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Cristal" ID="{FD3B87E4-67CF-4519-99A0-5351A6701D8F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{DBAB49BE-B220-49CB-88BE-BF083EEB751A}" ShortID="812703579">
 							<ReferenceList>
@@ -325,11 +341,60 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Lampara" ID="{E584B134-7E99-43CA-BD7D-FA7803EDBB2E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{7B3E77E3-D887-4900-8D32-9BB2C46B5091}" ShortID="246393653">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Lampara" ID="{FA0E5350-D77F-4662-B796-71021CC03258}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente" ID="{8AA4B6CE-1E77-402A-8D96-E21510285E9B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A5471282-7112-4714-AA01-298ADC7BE746}" ShortID="406041020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente" ID="{EF18E851-5202-4D42-B1D0-DE5F80DDCFC0}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tubo" ID="{3689BE38-7DDA-477C-8A10-0A72B864E8BC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{79750B75-C400-4CE9-9972-A64776038F1E}" ShortID="217498822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tubo" ID="{01DD1A31-B2AD-41BA-A83D-E066F7E30477}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Caja" ID="{C61CF4CB-FEB3-4712-BE9C-EFBE80E68FA8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B22BC76A-0F66-44B5-95CC-3355F525DE6C}" ShortID="748603803">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Caja" ID="{1BEE6E16-ED24-4823-8CC2-F5A587DBB49C}" WorkUnitID="{5E23845D-F840-4E73-9F85-079F86DBB1C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -5,12 +5,14 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Exterior" ID="{ADCDFF4F-AF61-454C-A7BC-BF0045BF1416}" ShortID="1012235651">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-12</Value>
@@ -413,6 +415,8 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="Nave" ID="{646BA575-4367-4DFD-B0B1-0D8B3C9F0521}" ShortID="654264539">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-12</Value>

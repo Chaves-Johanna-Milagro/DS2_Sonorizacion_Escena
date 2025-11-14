@@ -6,12 +6,14 @@
 				<RandomSequenceContainer Name="TachosNormales" ID="{B457557F-CC3B-46BE-8919-017554E0BF1B}" ShortID="558392930">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="9"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -231,51 +233,17 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
-				<Sound Name="Ambiente2" ID="{2B23888A-63D9-4750-B8DC-8D50D84D4F74}" ShortID="409935747">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-12</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Ambiente2" ID="{DB257948-76D1-4B9C-846E-EEF1B2D75FA3}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.0122302158273381"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0.880575539568345"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Ambiente2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="867926429"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Ambiente2" ID="{DB257948-76D1-4B9C-846E-EEF1B2D75FA3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="TapsPantallas" ID="{7D6760D9-CDC9-4AAA-89E6-4AF2FFF35D52}" ShortID="178343381">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="3"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -495,12 +463,14 @@
 				<RandomSequenceContainer Name="Picaportes" ID="{B5B54691-DFD7-43A6-B0C0-3B8EC80BFCF2}" ShortID="582427906">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -690,6 +660,8 @@
 				<Sound Name="AlienDialog" ID="{84615FC9-31D5-4368-985F-D378769E3DDC}" ShortID="362742246">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-5</Value>
@@ -715,6 +687,7 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
 															<XPos>10</XPos>
@@ -771,17 +744,14 @@
 				<RandomSequenceContainer Name="Alien" ID="{C65D3103-88D5-4A48-81FF-9978E2FA2A27}" ShortID="679761423">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="InitialDelay" Type="Real64">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
+						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -864,6 +834,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien2" ID="{EC1806A3-9DB5-4C2C-A3AF-85F4A1B107F6}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.269321672608437"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.269321672608437"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien2.wav</AudioFile>
 									<MediaIDList>
@@ -887,6 +862,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien3" ID="{3DB3A52A-1B9A-442D-90AC-CC8CE9803C7A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.167020499108734"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.1951265597148"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien3.wav</AudioFile>
 									<MediaIDList>
@@ -910,6 +890,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien4" ID="{99E042EA-BF02-4186-9A9A-21E7DB7777B2}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.244963606654783"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.244963606654783"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien4.wav</AudioFile>
 									<MediaIDList>
@@ -933,6 +918,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien5" ID="{5F9F7391-86EC-4BA5-A198-E46A93FA5986}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.152505718954248"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.152505718954248"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien5.wav</AudioFile>
 									<MediaIDList>
@@ -956,6 +946,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien6" ID="{81D61D60-0AB2-4619-A4A7-47B19B7E7DD8}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.24357174688057"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.70364639037433"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien6.wav</AudioFile>
 									<MediaIDList>
@@ -979,6 +974,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien7" ID="{B4228F23-F231-4DB4-879B-02F077F70D71}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.195951537433155"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.195951537433155"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien7.wav</AudioFile>
 									<MediaIDList>
@@ -1002,6 +1002,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="alien8" ID="{8654004D-6064-495E-A3C2-EA1EEFDCC0B4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.172786096256684"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.10233155080214"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>alien8.wav</AudioFile>
 									<MediaIDList>
@@ -1020,12 +1025,14 @@
 				<RandomSequenceContainer Name="TachosPeligrosos" ID="{F13725B1-2E6B-4118-9755-A9D09AB0FB40}" ShortID="961168590">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="8"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -1188,7 +1195,9 @@
 				<Sound Name="Computadora" ID="{A4E38774-3672-4859-B2BD-0FCA3C52DD0E}" ShortID="818848761">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-18</Value>
@@ -1271,7 +1280,9 @@
 				<Sound Name="Globo" ID="{E25B8E5A-53B3-44F5-A197-EC7987A41B15}" ShortID="909737387">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -1354,7 +1365,9 @@
 				<Sound Name="Lampara" ID="{FA0E5350-D77F-4662-B796-71021CC03258}" ShortID="407437658">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="6"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-14</Value>
@@ -1437,7 +1450,9 @@
 				<Sound Name="Cristal" ID="{683B252B-520D-4499-8FA0-769F67964EF4}" ShortID="532456529">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="12"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-18</Value>
@@ -1515,6 +1530,173 @@
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="cristal" ID="{27DBE7B6-6045-47ED-A7F5-7FE726B08834}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambiente" ID="{EF18E851-5202-4D42-B1D0-DE5F80DDCFC0}" ShortID="698648270">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambient-pads-loop-296968" ID="{D8A4DD1E-028B-4A34-BAE0-25F88547CFCE}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1973.207"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.98772745461821"/>
+								<Property Name="LoopEnd" Type="Real64" Value="16.5529717341482"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.993863727309105"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ambient-pads-loop-296968.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="20116794"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ambient-pads-loop-296968" ID="{D8A4DD1E-028B-4A34-BAE0-25F88547CFCE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tubo" ID="{01DD1A31-B2AD-41BA-A83D-E066F7E30477}" ShortID="914679199">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{A6B757C5-99BD-48DD-93B6-436E0B4CDE53}" ShortID="601296418">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="6"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{C716F353-3435-4049-AB75-5DB37138A75E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>6</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tubo" ID="{E8661EA1-31E1-47F4-BACB-C12AD6DCFD10}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="9.50414261987381"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Tubo .wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="857753407"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Tubo" ID="{E8661EA1-31E1-47F4-BACB-C12AD6DCFD10}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Caja" ID="{1BEE6E16-ED24-4823-8CC2-F5A587DBB49C}" ShortID="715074789">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="27"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E27FDFD3-9A96-4057-B4C2-DC9011F1B093}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC58466-50D3-46F1-9B39-DF137E1A1F1B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="caja 1 (1)" ID="{44C2AF51-16BD-45B6-8796-F827BDD16644}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.09550561797753"/>
+								<Property Name="TrimEnd" Type="Real64" Value="10.1516853932584"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>caja 1 (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1014097033"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="caja 1 (1)" ID="{44C2AF51-16BD-45B6-8796-F827BDD16644}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

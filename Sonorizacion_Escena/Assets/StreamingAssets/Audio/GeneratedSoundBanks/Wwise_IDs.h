@@ -16,7 +16,8 @@ namespace AK
         static const AkUniqueID MUTE_CUEVAMELODIA = 3750094810U;
         static const AkUniqueID PLAY_ALIEN = 585776263U;
         static const AkUniqueID PLAY_ALIENDIALOG = 1245305155U;
-        static const AkUniqueID PLAY_AMBIENTE2 = 578466671U;
+        static const AkUniqueID PLAY_AMBIENTE = 94063951U;
+        static const AkUniqueID PLAY_CAJA = 3133222561U;
         static const AkUniqueID PLAY_COMPUTADORA = 3915865825U;
         static const AkUniqueID PLAY_CRISTAL = 3859428728U;
         static const AkUniqueID PLAY_EXTERIOR = 2890489828U;
@@ -27,7 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_TACHOSNORMALES = 2639633249U;
         static const AkUniqueID PLAY_TACHOSPELIGROSOS = 116977947U;
         static const AkUniqueID PLAY_TAPSPANTALLAS = 3174868516U;
-        static const AkUniqueID STOP_ALIENDIALOG = 855891249U;
+        static const AkUniqueID PLAY_TUBO = 2938505982U;
         static const AkUniqueID UNMUTE_CUEVAMELODIA = 1001247021U;
     } // namespace EVENTS
 

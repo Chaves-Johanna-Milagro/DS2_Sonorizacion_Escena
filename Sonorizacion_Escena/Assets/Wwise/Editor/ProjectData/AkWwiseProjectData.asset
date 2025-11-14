@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 94adfb6c8393c14da110ead6bcf1d490
     GuidInternal: 
-    m_lastTime: -8584385304048994042
+    m_lastTime: -8584385044486207636
     List:
     - name: Mute_cuevaMelodia
       guid: 577e0a07816032478ced2c0b30f25903
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 2b96eff71065304f953a67040b5d75e0
       Path: Events\Default Work Unit\Play_Alien
       maxAttenuation: 10
-      maxDuration: 5.908021
-      minDuration: 2.227
+      maxDuration: 4.663057
+      minDuration: 0.929545
     - name: Play_AlienDialog
       guid: 9c3adf06903f304593c8bb07b71dd274
       id: 1245305155
@@ -147,9 +147,9 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 17.233875
       minDuration: 17.233875
-    - name: Play_Ambiente2
-      guid: 111a0f671ec6ec48ae7839dc04adda6b
-      id: 578466671
+    - name: Play_Ambiente
+      guid: ceb6a48a771e2a408d96e21510285e9b
+      id: 94063951
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -157,10 +157,27 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_Ambiente2
+      - ElementName: Play_Ambiente
         ObjectType: 3
-        guid: 111a0f671ec6ec48ae7839dc04adda6b
-      Path: Events\Default Work Unit\Play_Ambiente2
+        guid: ceb6a48a771e2a408d96e21510285e9b
+      Path: Events\Default Work Unit\Play_Ambiente
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Caja
+      guid: cbf41cc6b3fe1247be9cefbe80e68fa8
+      id: 3133222561
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 94adfb6c8393c14da110ead6bcf1d490
+      - ElementName: Play_Caja
+        ObjectType: 3
+        guid: cbf41cc6b3fe1247be9cefbe80e68fa8
+      Path: Events\Default Work Unit\Play_Caja
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -334,9 +351,9 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 2.276475
       minDuration: 1.83675
-    - name: Play_Ventanas
-      guid: 75d1765ce41cd14a8fc20239d280d6fa
-      id: 645244742
+    - name: Play_Tubo
+      guid: 38be8936da7d7c478a100a72b864e8bc
+      id: 2938505982
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -344,30 +361,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Play_Ventanas
+      - ElementName: Play_Tubo
         ObjectType: 3
-        guid: 75d1765ce41cd14a8fc20239d280d6fa
-      Path: Events\Default Work Unit\Play_Ventanas
-      maxAttenuation: 0
+        guid: 38be8936da7d7c478a100a72b864e8bc
+      Path: Events\Default Work Unit\Play_Tubo
+      maxAttenuation: 6
       maxDuration: -1
       minDuration: -1
-    - name: Stop_AlienDialog
-      guid: 0f1362288304ea458dccf6dc00e14ebe
-      id: 855891249
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 94adfb6c8393c14da110ead6bcf1d490
-      - ElementName: Stop_AlienDialog
-        ObjectType: 3
-        guid: 0f1362288304ea458dccf6dc00e14ebe
-      Path: Events\Default Work Unit\Stop_AlienDialog
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: UnMute_cuevaMelodia
       guid: bec02e73ca547d44958ffa17ba977712
       id: 1001247021
